@@ -124,6 +124,40 @@ async function getFloodRisk(lat, lon) {
   return `${zone} — ${subtype} (FEMA NFHL)`;
 }
 
+// --- LA County Assessor lot size (GIS parcel data) ---
+async function getLotSizeFromAssessor(streetAddress) {
+  // Build LIKE query: keep house number + directional prefix + street name, drop suffix
+  // e.g. "698 E Elizabeth St" → "698 E%ELIZABETH%"
+  // e.g. "577 N Chester Ave" → "577 N%CHESTER%"
+  // e.g. "1500 Oxley St" → "1500%OXLEY%"
+  const parts = streetAddress.trim().split(/\s+/);
+  const houseNum = parts[0];
+  // Keep directional prefix (N/S/E/W) with the house number, drop street type suffixes
+  const suffixRe = /^(St|Ave|Dr|Blvd|Ln|Pl|Way|Rd|Ct|Cir)$/i;
+  const dirRe = /^[NSEW]$/i;
+  let prefix = houseNum;
+  let startIdx = 1;
+  if (parts[1] && dirRe.test(parts[1])) {
+    prefix = `${houseNum} ${parts[1].toUpperCase()}`;
+    startIdx = 2;
+  }
+  const streetWords = parts.slice(startIdx)
+    .filter(w => !suffixRe.test(w))
+    .map(w => w.toUpperCase());
+  const query = `${prefix}%${streetWords.join("%")}%`;
+  const url = `https://public.gis.lacounty.gov/public/rest/services/LACounty_Cache/LACounty_Parcel/MapServer/0/query?where=${encodeURIComponent(`SitusAddress LIKE '${query}'`)}&outFields=AIN,SitusAddress,Shape.STArea()&returnGeometry=false&f=json`;
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(`LA County GIS HTTP ${res.status}`);
+  const data = await res.json();
+  const feature = data.features?.[0];
+  if (!feature) return null;
+  const area = feature.attributes["Shape.STArea()"];
+  if (!area || area <= 0) return null;
+  const ain = feature.attributes.AIN || "";
+  console.log(`  Assessor parcel: AIN ${ain}, ${Math.round(area)} sqft (${feature.attributes.SitusAddress})`);
+  return Math.round(area);
+}
+
 // --- Fetch HTML from a URL ---
 async function fetchHtml(url) {
   const res = await fetch(url, {
@@ -596,9 +630,9 @@ async function main() {
       console.log(`  Geocoded: ${coords.lat.toFixed(5)}, ${coords.lon.toFixed(5)}`);
     }
 
-    // Run fire and flood queries in parallel
-    console.log("  Querying fire/flood risk...");
-    const [fire, flood] = await Promise.all([
+    // Run fire, flood, and assessor lot size queries in parallel
+    console.log("  Querying fire/flood risk + assessor lot size...");
+    const [fire, flood, assessorLotSize] = await Promise.all([
       withTimeout(getFireRisk(coords.lat, coords.lon), 10000, "Fire risk").catch((e) => {
         console.warn(`  Fire risk query failed: ${e.message}`);
         return fireRisk;
@@ -607,9 +641,17 @@ async function main() {
         console.warn(`  Flood risk query failed: ${e.message}`);
         return floodRisk;
       }),
+      withTimeout(getLotSizeFromAssessor(address), 10000, "Assessor lot size").catch((e) => {
+        console.warn(`  Assessor lot size query failed: ${e.message}`);
+        return null;
+      }),
     ]);
     fireRisk = fire;
     floodRisk = flood;
+    // Prefer assessor lot size (surveyed parcel data) over Redfin scrape
+    if (assessorLotSize) {
+      redfinData.lotSize = assessorLotSize;
+    }
     console.log(`  Fire risk: ${fireRisk}`);
     console.log(`  Flood risk: ${floodRisk}`);
   } catch (err) {
