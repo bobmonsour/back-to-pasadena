@@ -10,6 +10,7 @@ A password-protected house hunting web app for comparing properties in the Pasad
 - **Hosting**: Cloudflare Workers with static assets (`_site/`)
 - **Mutable State**: Cloudflare KV (namespace binding: `HOUSES`)
 - **Research**: Redfin scraping (JSON-LD + embedded data) + Claude API (Sonnet) for neighborhood info + Google Maps Distance Matrix API
+- **Lot Size**: LA County Assessor GIS API (surveyed parcel polygons via `Shape.STArea()`), Redfin fallback for non-LA-County
 - **Risk Data**: CAL FIRE FHSZ ArcGIS API (fire) + FEMA NFHL ArcGIS API (flood)
 - **Geocoding**: Google Maps Geocoding API with US Census geocoder fallback (free, no key)
 - **Dependencies**: `@anthropic-ai/sdk`, `@googlemaps/google-maps-services-js`, `dotenv`
@@ -27,13 +28,14 @@ A password-protected house hunting web app for comparing properties in the Pasad
 ### Research Pipeline (`scripts/research.js`)
 1. **Redfin scrape**: Fetch listing page HTML → extract JSON-LD structured data (price, beds, baths, sqft, year built, images, geo coords, date listed) + embedded escaped JSON events array (price history, last sold) + agent info, Redfin estimate
 2. **Geocode**: Use Redfin JSON-LD geo coordinates (or Google Maps geocoding, or US Census geocoder fallback)
-3. **Fire risk**: Query CAL FIRE FHSZ ArcGIS REST API (SRA layer 0 + LRA layer 1) with lat/lon → "Low" if no zone, else "Moderate"/"High"/"Very High"
-4. **Flood risk**: Query FEMA NFHL ArcGIS REST API (layer 28) with lat/lon → interpret FEMA zone codes (X=Low, A/AE=High, V/VE=High coastal)
-5. **Claude research**: Web search for neighborhood description, park proximity, crime rating only (not property details)
-6. **Google Maps**: Distance matrix to preset destinations
-7. **Peep Rating**: Parse friend/family locations from `src/_data/peep-map.kml` (supports CDATA names) → parallel driving + walking Distance Matrix API calls → average driving distance/time + per-peep breakdown with coordinates
-8. **Images**: Download up to 20 listing photos from Redfin JSON-LD image array
-9. **Merge all**: Write combined JSON to `src/_data/houses/{id}.json`
+3. **Lot size**: Query LA County Assessor GIS parcel API by address (`SitusAddress LIKE` query) → `Shape.STArea()` returns precise lot area in sqft from surveyed parcel polygons. Runs in parallel with fire/flood. Preferred over Redfin lot size; falls back to Redfin for non-LA-County properties.
+4. **Fire risk**: Query CAL FIRE FHSZ ArcGIS REST API (SRA layer 0 + LRA layer 1) with lat/lon → "Low" if no zone, else "Moderate"/"High"/"Very High"
+5. **Flood risk**: Query FEMA NFHL ArcGIS REST API (layer 28) with lat/lon → interpret FEMA zone codes (X=Low, A/AE=High, V/VE=High coastal)
+6. **Claude research**: Web search for neighborhood description, park proximity, crime rating only (not property details)
+7. **Google Maps**: Distance matrix to preset destinations
+8. **Peep Rating**: Parse friend/family locations from `src/_data/peep-map.kml` (supports CDATA names) → parallel driving + walking Distance Matrix API calls → average driving distance/time + per-peep breakdown with coordinates
+9. **Images**: Download up to 20 listing photos from Redfin JSON-LD image array
+10. **Merge all**: Write combined JSON to `src/_data/houses/{id}.json`
 
 ### Key Directories
 ```
@@ -133,6 +135,7 @@ scripts/
 
 ## External APIs (no keys required)
 
+- **LA County Assessor GIS**: `https://public.gis.lacounty.gov/public/rest/services/LACounty_Cache/LACounty_Parcel/MapServer/0/query` (lot size via `Shape.STArea()`, searchable by `SitusAddress LIKE` or `AIN`)
 - **CAL FIRE FHSZ**: `https://services.gis.ca.gov/arcgis/rest/services/Environment/Fire_Severity_Zones/MapServer` (layers 0=SRA, 1=LRA)
 - **FEMA NFHL**: `https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28`
 - **US Census Geocoder**: `https://geocoding.geo.census.gov/geocoder/locations/onelineaddress` (fallback when no Google Maps key)
