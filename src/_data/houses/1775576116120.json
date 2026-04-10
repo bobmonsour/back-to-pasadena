@@ -1,0 +1,280 @@
+{
+  "id": 1775576116120,
+  "address": "760 Laguna Rd",
+  "city": "Pasadena, CA 91105",
+  "price": 3250000,
+  "beds": 4,
+  "baths": 4.5,
+  "sqft": 3337,
+  "lotSize": 16861,
+  "yearBuilt": 1956,
+  "images": [
+    "/images/1775576116120/photo-1.jpg",
+    "/images/1775576116120/photo-2.jpg",
+    "/images/1775576116120/photo-3.jpg",
+    "/images/1775576116120/photo-4.jpg",
+    "/images/1775576116120/photo-5.jpg",
+    "/images/1775576116120/photo-6.jpg",
+    "/images/1775576116120/photo-7.jpg",
+    "/images/1775576116120/photo-8.jpg",
+    "/images/1775576116120/photo-9.jpg",
+    "/images/1775576116120/photo-10.jpg",
+    "/images/1775576116120/photo-11.jpg",
+    "/images/1775576116120/photo-12.jpg",
+    "/images/1775576116120/photo-13.jpg",
+    "/images/1775576116120/photo-14.jpg",
+    "/images/1775576116120/photo-15.jpg",
+    "/images/1775576116120/photo-16.jpg",
+    "/images/1775576116120/photo-17.jpg",
+    "/images/1775576116120/photo-18.jpg",
+    "/images/1775576116120/photo-19.jpg",
+    "/images/1775576116120/photo-20.jpg",
+    "/images/1775576116120/photo-21.jpg",
+    "/images/1775576116120/photo-22.jpg",
+    "/images/1775576116120/photo-23.jpg",
+    "/images/1775576116120/photo-24.jpg",
+    "/images/1775576116120/photo-25.jpg",
+    "/images/1775576116120/photo-26.jpg",
+    "/images/1775576116120/photo-27.jpg",
+    "/images/1775576116120/photo-28.jpg",
+    "/images/1775576116120/photo-29.jpg",
+    "/images/1775576116120/photo-30.jpg",
+    "/images/1775576116120/photo-31.jpg",
+    "/images/1775576116120/photo-32.jpg",
+    "/images/1775576116120/photo-33.jpg",
+    "/images/1775576116120/photo-34.jpg",
+    "/images/1775576116120/photo-35.jpg",
+    "/images/1775576116120/photo-36.jpg",
+    "/images/1775576116120/photo-37.jpg",
+    "/images/1775576116120/photo-38.jpg",
+    "/images/1775576116120/photo-39.jpg",
+    "/images/1775576116120/photo-40.jpg"
+  ],
+  "neighborhood": "Located in Pasadena's northeast area which is considered the safest part of the city, featuring walkable streets with historic charm, tree-lined residential character, and diverse architectural styles including Craftsman homes. The area has a moderate Walk Score of 69 with good public transportation access and pedestrian-friendly streetscapes.",
+  "parkProximity": "0.8 miles to Memorial Park (85 E. Holly Street)",
+  "floodRisk": "Low — Zone X, minimal flood hazard (FEMA NFHL)",
+  "fireRisk": "Very High — very high fire hazard severity zone (CAL FIRE FHSZ)",
+  "crimeRating": "Moderate — Grade D (CrimeGrade.org)",
+  "distances": [
+    {
+      "name": "Whole Foods Market",
+      "address": "465 S Arroyo Pkwy, Pasadena, CA 91105",
+      "miles": "2.4 mi",
+      "time": "9 min"
+    },
+    {
+      "name": "Trader Joe's",
+      "address": "613 Mission St, South Pasadena, CA 91030",
+      "miles": "1.5 mi",
+      "time": "4 min"
+    },
+    {
+      "name": "Costco",
+      "address": "3972 Costco Dr, Arcadia, CA 91006",
+      "miles": "10.0 mi",
+      "time": "15 min"
+    },
+    {
+      "name": "Target",
+      "address": "777 E Colorado Blvd, Pasadena, CA 91101",
+      "miles": "4.0 mi",
+      "time": "10 min"
+    },
+    {
+      "name": "Home Depot",
+      "address": "2881 E Walnut St, Pasadena, CA 91107",
+      "miles": "6.1 mi",
+      "time": "11 min"
+    },
+    {
+      "name": "Republik Coffee",
+      "address": "48 W Green St, Pasadena, CA 91105",
+      "miles": "2.3 mi",
+      "time": "8 min"
+    }
+  ],
+  "peepRating": {
+    "avgMiles": "6.2 mi",
+    "avgTime": "13 min",
+    "distances": [
+      {
+        "name": "Joan & David",
+        "lat": 34.1569436,
+        "lon": -118.1613219,
+        "driving": {
+          "miles": "2.6 mi",
+          "time": "8 min"
+        },
+        "walking": {
+          "miles": "2.6 mi",
+          "time": "1 hour 0 min"
+        }
+      },
+      {
+        "name": "Helen Becich",
+        "lat": 34.1578015,
+        "lon": -118.231412,
+        "driving": {
+          "miles": "5.4 mi",
+          "time": "12 min"
+        },
+        "walking": {
+          "miles": "4.8 mi",
+          "time": "1 hour 51 min"
+        }
+      },
+      {
+        "name": "Dan & Eileen Collins",
+        "lat": 34.1896915,
+        "lon": -118.1388309,
+        "driving": {
+          "miles": "6.2 mi",
+          "time": "13 min"
+        },
+        "walking": {
+          "miles": "5.6 mi",
+          "time": "2 hours 14 min"
+        }
+      },
+      {
+        "name": "Tom & Jan Selinske",
+        "lat": 34.1742915,
+        "lon": -118.1303586,
+        "driving": {
+          "miles": "5.3 mi",
+          "time": "13 min"
+        },
+        "walking": {
+          "miles": "5.1 mi",
+          "time": "1 hour 59 min"
+        }
+      },
+      {
+        "name": "Mike & Mary Veselich",
+        "lat": 34.2004099,
+        "lon": -118.1410491,
+        "driving": {
+          "miles": "6.6 mi",
+          "time": "14 min"
+        },
+        "walking": {
+          "miles": "6.3 mi",
+          "time": "2 hours 32 min"
+        }
+      },
+      {
+        "name": "Chris & Hana Veselich",
+        "lat": 34.2168295,
+        "lon": -118.2386256,
+        "driving": {
+          "miles": "10.1 mi",
+          "time": "14 min"
+        },
+        "walking": {
+          "miles": "9.4 mi",
+          "time": "3 hours 42 min"
+        }
+      },
+      {
+        "name": "Dave & Jane Rumph",
+        "lat": 34.1656763,
+        "lon": -118.0748669,
+        "driving": {
+          "miles": "7.6 mi",
+          "time": "15 min"
+        },
+        "walking": {
+          "miles": "7.5 mi",
+          "time": "2 hours 52 min"
+        }
+      }
+    ]
+  },
+  "agent": {
+    "name": "Pei Chang",
+    "phone": "+16264005414",
+    "email": "—"
+  },
+  "dateListed": "2026-04-07",
+  "priceHistory": [
+    {
+      "type": "listed",
+      "label": "Listed",
+      "date": "Apr 7, 2026",
+      "amount": 3250000
+    },
+    {
+      "type": "sold",
+      "label": "Sold (MLS)",
+      "date": "May 14, 2024",
+      "amount": 2538000
+    },
+    {
+      "type": "sold",
+      "label": "Sold (Public Records)",
+      "date": "May 14, 2024",
+      "amount": 2538000
+    },
+    {
+      "type": "listed",
+      "label": "Listed",
+      "date": "Mar 27, 2024",
+      "amount": 2685000
+    },
+    {
+      "type": "reduced",
+      "label": "Price Changed",
+      "date": "Feb 15, 2024",
+      "amount": 2685000
+    },
+    {
+      "type": "listed",
+      "label": "Listed",
+      "date": "Jan 12, 2024",
+      "amount": 2999000
+    },
+    {
+      "type": "sold",
+      "label": "Sold (MLS)",
+      "date": "Nov 6, 2014",
+      "amount": 1756350
+    },
+    {
+      "type": "sold",
+      "label": "Sold (Public Records)",
+      "date": "Nov 6, 2014",
+      "amount": 1756500
+    },
+    {
+      "type": "listed",
+      "label": "Listed",
+      "date": "Aug 27, 2014",
+      "amount": 1875000
+    },
+    {
+      "type": "sold",
+      "label": "Sold (Public Records)",
+      "date": "Oct 1, 1998",
+      "amount": 525000
+    },
+    {
+      "type": "listed",
+      "label": "Listed",
+      "date": "Aug 8, 1998",
+      "amount": 575000
+    }
+  ],
+  "lastSold": {
+    "date": "May 14, 2024",
+    "price": 2538000
+  },
+  "estimates": {
+    "redfin": 3242599
+  },
+  "listingUrl": "https://www.redfin.com/CA/Pasadena/760-Laguna-Rd-91105/home/7186529",
+  "listingSource": "redfin",
+  "redfinUrl": "https://www.redfin.com/CA/Pasadena/760-Laguna-Rd-91105/home/7186529",
+  "lat": 34.129497,
+  "lon": -118.1724526,
+  "dateAdded": "2026-04-07T15:36:11.355Z"
+}

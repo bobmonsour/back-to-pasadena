@@ -31,7 +31,12 @@
       "Bash(sqlite3 $DB:*)",
       "WebFetch(domain:www.homedepot.com)",
       "Bash(do node:*)",
-      "WebFetch(domain:www.redfin.com)"
+      "WebFetch(domain:www.redfin.com)",
+      "WebFetch(domain:portal.assessor.lacounty.gov)",
+      "WebFetch(domain:www.propertytax.lacounty.gov)",
+      "WebFetch(domain:www.homes.com)",
+      "WebFetch(domain:egis-lacounty.hub.arcgis.com)",
+      "WebFetch(domain:public.gis.lacounty.gov)"
     ]
   }
 }
