@@ -1,0 +1,276 @@
+{
+  "id": 1775921359063,
+  "address": "1205 Wabash St",
+  "city": "Pasadena, CA 91103",
+  "price": 3150000,
+  "beds": 3,
+  "baths": 3.5,
+  "sqft": 2872,
+  "lotSize": 19198,
+  "yearBuilt": 1952,
+  "images": [
+    "/images/1775921359063/photo-1.jpg",
+    "/images/1775921359063/photo-2.jpg",
+    "/images/1775921359063/photo-3.jpg",
+    "/images/1775921359063/photo-4.jpg",
+    "/images/1775921359063/photo-5.jpg",
+    "/images/1775921359063/photo-6.jpg",
+    "/images/1775921359063/photo-7.jpg",
+    "/images/1775921359063/photo-8.jpg",
+    "/images/1775921359063/photo-9.jpg",
+    "/images/1775921359063/photo-10.jpg",
+    "/images/1775921359063/photo-11.jpg",
+    "/images/1775921359063/photo-12.jpg",
+    "/images/1775921359063/photo-13.jpg",
+    "/images/1775921359063/photo-14.jpg",
+    "/images/1775921359063/photo-15.jpg",
+    "/images/1775921359063/photo-16.jpg",
+    "/images/1775921359063/photo-17.jpg",
+    "/images/1775921359063/photo-18.jpg",
+    "/images/1775921359063/photo-19.jpg",
+    "/images/1775921359063/photo-20.jpg",
+    "/images/1775921359063/photo-21.jpg",
+    "/images/1775921359063/photo-22.jpg",
+    "/images/1775921359063/photo-23.jpg",
+    "/images/1775921359063/photo-24.jpg",
+    "/images/1775921359063/photo-25.jpg",
+    "/images/1775921359063/photo-26.jpg",
+    "/images/1775921359063/photo-27.jpg",
+    "/images/1775921359063/photo-28.jpg",
+    "/images/1775921359063/photo-29.jpg",
+    "/images/1775921359063/photo-30.jpg",
+    "/images/1775921359063/photo-31.jpg",
+    "/images/1775921359063/photo-32.jpg",
+    "/images/1775921359063/photo-33.jpg",
+    "/images/1775921359063/photo-34.jpg",
+    "/images/1775921359063/photo-35.jpg",
+    "/images/1775921359063/photo-36.jpg",
+    "/images/1775921359063/photo-37.jpg",
+    "/images/1775921359063/photo-38.jpg",
+    "/images/1775921359063/photo-39.jpg",
+    "/images/1775921359063/photo-40.jpg",
+    "/images/1775921359063/photo-41.jpg",
+    "/images/1775921359063/photo-42.jpg",
+    "/images/1775921359063/photo-43.jpg",
+    "/images/1775921359063/photo-44.jpg",
+    "/images/1775921359063/photo-45.jpg",
+    "/images/1775921359063/photo-46.jpg",
+    "/images/1775921359063/photo-47.jpg",
+    "/images/1775921359063/photo-48.jpg",
+    "/images/1775921359063/photo-49.jpg",
+    "/images/1775921359063/photo-50.jpg",
+    "/images/1775921359063/photo-51.jpg",
+    "/images/1775921359063/photo-52.jpg",
+    "/images/1775921359063/photo-53.jpg",
+    "/images/1775921359063/photo-54.jpg"
+  ],
+  "neighborhood": "<cite index=\"1-3,9-13,9-16\">This area is rated as very walkable with a quiet residential character featuring predominantly single-family homes from the 1950s era. The neighborhood offers historic charm with well-maintained streetscapes and good walkable access to South Lake Avenue for dining and services.</cite>",
+  "parkProximity": "<cite index=\"28-15,28-26,28-28\">1.2 miles to Garfield Park at 1000 Park Avenue, South Pasadena</cite>",
+  "floodRisk": "Moderate — Zone D, undetermined flood hazard (FEMA NFHL)",
+  "fireRisk": "Very High — very high fire hazard severity zone (CAL FIRE FHSZ)",
+  "crimeRating": "<cite index=\"31-11,31-12\">Moderate — Grade D (CrimeGrade.org)</cite>",
+  "distances": [
+    {
+      "name": "Whole Foods Market",
+      "address": "465 S Arroyo Pkwy, Pasadena, CA 91105",
+      "miles": "3.0 mi",
+      "time": "10 min"
+    },
+    {
+      "name": "Trader Joe's",
+      "address": "613 Mission St, South Pasadena, CA 91030",
+      "miles": "4.0 mi",
+      "time": "11 min"
+    },
+    {
+      "name": "Costco",
+      "address": "3972 Costco Dr, Arcadia, CA 91006",
+      "miles": "9.8 mi",
+      "time": "14 min"
+    },
+    {
+      "name": "Target",
+      "address": "777 E Colorado Blvd, Pasadena, CA 91101",
+      "miles": "3.8 mi",
+      "time": "10 min"
+    },
+    {
+      "name": "Home Depot",
+      "address": "2881 E Walnut St, Pasadena, CA 91107",
+      "miles": "6.0 mi",
+      "time": "11 min"
+    },
+    {
+      "name": "Republik Coffee",
+      "address": "48 W Green St, Pasadena, CA 91105",
+      "miles": "2.3 mi",
+      "time": "8 min"
+    }
+  ],
+  "peepRating": {
+    "avgMiles": "5.1 mi",
+    "avgTime": "11 min",
+    "distances": [
+      {
+        "name": "Joan & David",
+        "lat": 34.1569436,
+        "lon": -118.1613219,
+        "driving": {
+          "miles": "1.8 mi",
+          "time": "5 min"
+        },
+        "walking": {
+          "miles": "1.9 mi",
+          "time": "40 min"
+        }
+      },
+      {
+        "name": "Helen Becich",
+        "lat": 34.1578015,
+        "lon": -118.231412,
+        "driving": {
+          "miles": "6.3 mi",
+          "time": "11 min"
+        },
+        "walking": {
+          "miles": "7.1 mi",
+          "time": "2 hours 41 min"
+        }
+      },
+      {
+        "name": "Dan & Eileen Collins",
+        "lat": 34.1896915,
+        "lon": -118.1388309,
+        "driving": {
+          "miles": "4.2 mi",
+          "time": "11 min"
+        },
+        "walking": {
+          "miles": "4.0 mi",
+          "time": "1 hour 35 min"
+        }
+      },
+      {
+        "name": "Tom & Jan Selinske",
+        "lat": 34.1742915,
+        "lon": -118.1303586,
+        "driving": {
+          "miles": "4.6 mi",
+          "time": "12 min"
+        },
+        "walking": {
+          "miles": "4.0 mi",
+          "time": "1 hour 30 min"
+        }
+      },
+      {
+        "name": "Mike & Mary Veselich",
+        "lat": 34.2004099,
+        "lon": -118.1410491,
+        "driving": {
+          "miles": "4.6 mi",
+          "time": "12 min"
+        },
+        "walking": {
+          "miles": "4.7 mi",
+          "time": "1 hour 53 min"
+        }
+      },
+      {
+        "name": "Chris & Hana Veselich",
+        "lat": 34.2168295,
+        "lon": -118.2386256,
+        "driving": {
+          "miles": "6.6 mi",
+          "time": "11 min"
+        },
+        "walking": {
+          "miles": "7.1 mi",
+          "time": "2 hours 45 min"
+        }
+      },
+      {
+        "name": "Dave & Jane Rumph",
+        "lat": 34.1656763,
+        "lon": -118.0748669,
+        "driving": {
+          "miles": "7.4 mi",
+          "time": "15 min"
+        },
+        "walking": {
+          "miles": "7.2 mi",
+          "time": "2 hours 41 min"
+        }
+      }
+    ]
+  },
+  "agent": {
+    "name": "Teresa Fuller",
+    "phone": "+18186965090",
+    "email": "—"
+  },
+  "dateListed": "2026-04-10",
+  "priceHistory": [
+    {
+      "type": "listed",
+      "label": "Listed",
+      "date": "Apr 10, 2026",
+      "amount": 3150000
+    },
+    {
+      "type": "sold",
+      "label": "Sold (Public Records)",
+      "date": "Apr 23, 2012",
+      "amount": 1500000
+    },
+    {
+      "type": "sold",
+      "label": "Sold (Public Records)",
+      "date": "Mar 16, 2007",
+      "amount": 1395000
+    },
+    {
+      "type": "sold",
+      "label": "Sold (MLS)",
+      "date": "Jan 11, 2006",
+      "amount": 1545000
+    },
+    {
+      "type": "sold",
+      "label": "Sold (Public Records)",
+      "date": "Jan 10, 2006",
+      "amount": 1545000
+    },
+    {
+      "type": "listed",
+      "label": "Listed",
+      "date": "Sep 26, 2005",
+      "amount": 1545000
+    },
+    {
+      "type": "sold",
+      "label": "Sold (Public Records)",
+      "date": "Mar 20, 2000",
+      "amount": 525000
+    },
+    {
+      "type": "sold",
+      "label": "Sold (Public Records)",
+      "date": "Jun 13, 1989",
+      "amount": 515000
+    }
+  ],
+  "lastSold": {
+    "date": "Apr 23, 2012",
+    "price": 1500000
+  },
+  "estimates": {
+    "redfin": 3192257
+  },
+  "listingUrl": "https://www.redfin.com/CA/Pasadena/1205-Wabash-St-91103/home/7183325",
+  "listingSource": "redfin",
+  "redfinUrl": "https://www.redfin.com/CA/Pasadena/1205-Wabash-St-91103/home/7183325",
+  "lat": 34.1647926,
+  "lon": -118.1760242,
+  "dateAdded": "2026-04-11T15:30:16.319Z"
+}
