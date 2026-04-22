@@ -1,0 +1,253 @@
+{
+  "id": 1776817149410,
+  "address": "1450 N Michigan Ave",
+  "city": "Pasadena, CA 91104",
+  "price": 2399000,
+  "beds": 4,
+  "baths": 2.5,
+  "sqft": 2597,
+  "lotSize": 14643,
+  "yearBuilt": 1924,
+  "images": [
+    "/images/1776817149410/photo-1.jpg",
+    "/images/1776817149410/photo-2.jpg",
+    "/images/1776817149410/photo-3.jpg",
+    "/images/1776817149410/photo-4.jpg",
+    "/images/1776817149410/photo-5.jpg",
+    "/images/1776817149410/photo-6.jpg",
+    "/images/1776817149410/photo-7.jpg",
+    "/images/1776817149410/photo-8.jpg",
+    "/images/1776817149410/photo-9.jpg",
+    "/images/1776817149410/photo-10.jpg",
+    "/images/1776817149410/photo-11.jpg",
+    "/images/1776817149410/photo-12.jpg",
+    "/images/1776817149410/photo-13.jpg",
+    "/images/1776817149410/photo-14.jpg",
+    "/images/1776817149410/photo-15.jpg",
+    "/images/1776817149410/photo-16.jpg",
+    "/images/1776817149410/photo-17.jpg",
+    "/images/1776817149410/photo-18.jpg",
+    "/images/1776817149410/photo-19.jpg",
+    "/images/1776817149410/photo-20.jpg",
+    "/images/1776817149410/photo-21.jpg",
+    "/images/1776817149410/photo-22.jpg",
+    "/images/1776817149410/photo-23.jpg",
+    "/images/1776817149410/photo-24.jpg",
+    "/images/1776817149410/photo-25.jpg",
+    "/images/1776817149410/photo-26.jpg",
+    "/images/1776817149410/photo-27.jpg",
+    "/images/1776817149410/photo-28.jpg",
+    "/images/1776817149410/photo-29.jpg",
+    "/images/1776817149410/photo-30.jpg",
+    "/images/1776817149410/photo-31.jpg",
+    "/images/1776817149410/photo-32.jpg",
+    "/images/1776817149410/photo-33.jpg",
+    "/images/1776817149410/photo-34.jpg",
+    "/images/1776817149410/photo-35.jpg",
+    "/images/1776817149410/photo-36.jpg",
+    "/images/1776817149410/photo-37.jpg",
+    "/images/1776817149410/photo-38.jpg",
+    "/images/1776817149410/photo-39.jpg",
+    "/images/1776817149410/photo-40.jpg",
+    "/images/1776817149410/photo-41.jpg",
+    "/images/1776817149410/photo-42.jpg",
+    "/images/1776817149410/photo-43.jpg"
+  ],
+  "neighborhood": "The Michigan Avenue area features historic character homes with well-maintained façades and quiet residential streets. Pasadena is known for its walkable neighborhoods with many destinations within walking distance, though it scores as 'Somewhat Walkable' requiring some car dependence for daily errands.",
+  "parkProximity": "0.8 miles to Grant Park (232 S Michigan Ave) - a 2.5-acre park with tennis courts, softball diamond, basketball courts, and picnic areas",
+  "floodRisk": "Unknown",
+  "fireRisk": "Low — not in a fire hazard severity zone (CAL FIRE FHSZ)",
+  "crimeRating": "Below Average — Grade C- (CrimeGrade.org zip code 91104)",
+  "distances": [
+    {
+      "name": "Whole Foods Market",
+      "address": "465 S Arroyo Pkwy, Pasadena, CA 91105",
+      "miles": "4.0 mi",
+      "time": "11 min"
+    },
+    {
+      "name": "Trader Joe's",
+      "address": "345 S Lake Ave, Pasadena, CA 91101",
+      "miles": "2.9 mi",
+      "time": "10 min"
+    },
+    {
+      "name": "Costco",
+      "address": "3972 Costco Dr, Arcadia, CA 91006",
+      "miles": "7.3 mi",
+      "time": "12 min"
+    },
+    {
+      "name": "Target",
+      "address": "777 E Colorado Blvd, Pasadena, CA 91101",
+      "miles": "2.2 mi",
+      "time": "9 min"
+    },
+    {
+      "name": "Home Depot",
+      "address": "2881 E Walnut St, Pasadena, CA 91107",
+      "miles": "3.5 mi",
+      "time": "9 min"
+    },
+    {
+      "name": "Republik Coffee",
+      "address": "48 W Green St, Pasadena, CA 91105",
+      "miles": "4.5 mi",
+      "time": "11 min"
+    }
+  ],
+  "peepRating": {
+    "avgMiles": "4.2 mi",
+    "avgTime": "9 min",
+    "distances": [
+      {
+        "name": "Joan & David",
+        "lat": 34.1569436,
+        "lon": -118.1613219,
+        "driving": {
+          "miles": "3.0 mi",
+          "time": "9 min"
+        },
+        "walking": {
+          "miles": "3.0 mi",
+          "time": "1 hour 4 min"
+        }
+      },
+      {
+        "name": "Helen Becich",
+        "lat": 34.1578015,
+        "lon": -118.231412,
+        "driving": {
+          "miles": "9.0 mi",
+          "time": "14 min"
+        },
+        "walking": {
+          "miles": "8.8 mi",
+          "time": "3 hours 17 min"
+        }
+      },
+      {
+        "name": "Dan & Eileen Collins",
+        "lat": 34.1896915,
+        "lon": -118.1388309,
+        "driving": {
+          "miles": "2.1 mi",
+          "time": "6 min"
+        },
+        "walking": {
+          "miles": "2.0 mi",
+          "time": "48 min"
+        }
+      },
+      {
+        "name": "Tom & Jan Selinske",
+        "lat": 34.1742915,
+        "lon": -118.1303586,
+        "driving": {
+          "miles": "0.6 mi",
+          "time": "2 min"
+        },
+        "walking": {
+          "miles": "0.6 mi",
+          "time": "13 min"
+        }
+      },
+      {
+        "name": "Mike & Mary Veselich",
+        "lat": 34.2004099,
+        "lon": -118.1410491,
+        "driving": {
+          "miles": "3.0 mi",
+          "time": "9 min"
+        },
+        "walking": {
+          "miles": "2.8 mi",
+          "time": "1 hour 10 min"
+        }
+      },
+      {
+        "name": "Chris & Hana Veselich",
+        "lat": 34.2168295,
+        "lon": -118.2386256,
+        "driving": {
+          "miles": "8.5 mi",
+          "time": "14 min"
+        },
+        "walking": {
+          "miles": "8.5 mi",
+          "time": "3 hours 16 min"
+        }
+      },
+      {
+        "name": "Dave & Jane Rumph",
+        "lat": 34.1656763,
+        "lon": -118.0748669,
+        "driving": {
+          "miles": "3.6 mi",
+          "time": "10 min"
+        },
+        "walking": {
+          "miles": "3.6 mi",
+          "time": "1 hour 19 min"
+        }
+      }
+    ]
+  },
+  "agent": {
+    "name": "Ted Clark",
+    "phone": "+16267689405",
+    "email": "—"
+  },
+  "dateListed": "2026-04-21",
+  "priceHistory": [
+    {
+      "type": "listed",
+      "label": "Listed",
+      "date": "Apr 21, 2026",
+      "amount": 2399000
+    },
+    {
+      "type": "sold",
+      "label": "Sold (MLS)",
+      "date": "Jul 1, 2008",
+      "amount": 1185000
+    },
+    {
+      "type": "sold",
+      "label": "Sold (Public Records)",
+      "date": "Jul 1, 2008",
+      "amount": 1185000
+    },
+    {
+      "type": "listed",
+      "label": "Listed",
+      "date": "Apr 28, 2008",
+      "amount": 1250000
+    },
+    {
+      "type": "sold",
+      "label": "Sold (Public Records)",
+      "date": "Oct 1, 1999",
+      "amount": 430000
+    },
+    {
+      "type": "sold",
+      "label": "Sold (Public Records)",
+      "date": "Oct 15, 1971",
+      "amount": 28000
+    }
+  ],
+  "lastSold": {
+    "date": "Jul 1, 2008",
+    "price": 1185000
+  },
+  "estimates": {
+    "redfin": 2407513
+  },
+  "listingUrl": "https://www.redfin.com/CA/Pasadena/1450-N-Michigan-Ave-91104/home/7262904",
+  "listingSource": "redfin",
+  "redfinUrl": "https://www.redfin.com/CA/Pasadena/1450-N-Michigan-Ave-91104/home/7262904",
+  "lat": 34.1708231,
+  "lon": -118.1255075,
+  "dateAdded": "2026-04-22T01:39:17.764Z"
+}

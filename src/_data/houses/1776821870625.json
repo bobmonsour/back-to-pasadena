@@ -1,0 +1,232 @@
+{
+  "id": 1776821870625,
+  "address": "2089 E Mountain St",
+  "city": "Pasadena, CA 91104",
+  "price": 1797000,
+  "beds": 3,
+  "baths": 2,
+  "sqft": 2307,
+  "lotSize": 7097,
+  "yearBuilt": 1929,
+  "images": [
+    "/images/1776821870625/photo-1.jpg",
+    "/images/1776821870625/photo-2.jpg",
+    "/images/1776821870625/photo-3.jpg",
+    "/images/1776821870625/photo-4.jpg",
+    "/images/1776821870625/photo-5.jpg",
+    "/images/1776821870625/photo-6.jpg",
+    "/images/1776821870625/photo-7.jpg",
+    "/images/1776821870625/photo-8.jpg",
+    "/images/1776821870625/photo-9.jpg",
+    "/images/1776821870625/photo-10.jpg",
+    "/images/1776821870625/photo-11.jpg",
+    "/images/1776821870625/photo-12.jpg",
+    "/images/1776821870625/photo-13.jpg",
+    "/images/1776821870625/photo-14.jpg",
+    "/images/1776821870625/photo-15.jpg",
+    "/images/1776821870625/photo-16.jpg",
+    "/images/1776821870625/photo-17.jpg",
+    "/images/1776821870625/photo-18.jpg",
+    "/images/1776821870625/photo-19.jpg",
+    "/images/1776821870625/photo-20.jpg",
+    "/images/1776821870625/photo-21.jpg",
+    "/images/1776821870625/photo-22.jpg"
+  ],
+  "neighborhood": "The E Mountain Street area is part of a charming historic neighborhood featuring early 20th-century homes including Tudor Revival and Craftsman styles with tree-lined streets and distinctive period architecture. The property sits in the 91104 zip code, an area known for its walkable character with a score of 69, mature landscaping, and proximity to Pasadena's historic districts.",
+  "parkProximity": "0.6 miles to McDonald Park (1000 E Mountain St), a 4.8-acre neighborhood park featuring playgrounds, pickleball courts, basketball, volleyball, and scenic San Gabriel Mountain views",
+  "floodRisk": "Low — Zone X, minimal flood hazard (FEMA NFHL)",
+  "fireRisk": "Low — not in a fire hazard severity zone (CAL FIRE FHSZ)",
+  "crimeRating": "Below Average — Grade D (CrimeGrade.org)",
+  "distances": [
+    {
+      "name": "Whole Foods Market",
+      "address": "3751 E Foothill Blvd, Pasadena, CA 91107",
+      "miles": "2.6 mi",
+      "time": "9 min"
+    },
+    {
+      "name": "Trader Joe's",
+      "address": "467 N Rosemead Blvd, Pasadena, CA 91107",
+      "miles": "2.1 mi",
+      "time": "6 min"
+    },
+    {
+      "name": "Costco",
+      "address": "3972 Costco Dr, Arcadia, CA 91006",
+      "miles": "6.3 mi",
+      "time": "10 min"
+    },
+    {
+      "name": "Target",
+      "address": "3121 E Colorado Blvd, Pasadena, CA 91107",
+      "miles": "2.4 mi",
+      "time": "8 min"
+    },
+    {
+      "name": "Home Depot",
+      "address": "2881 E Walnut St, Pasadena, CA 91107",
+      "miles": "1.8 mi",
+      "time": "7 min"
+    },
+    {
+      "name": "Republik Coffee",
+      "address": "48 W Green St, Pasadena, CA 91105",
+      "miles": "4.5 mi",
+      "time": "11 min"
+    }
+  ],
+  "peepRating": {
+    "avgMiles": "5.4 mi",
+    "avgTime": "10 min",
+    "distances": [
+      {
+        "name": "Joan & David",
+        "lat": 34.1569436,
+        "lon": -118.1613219,
+        "driving": {
+          "miles": "4.5 mi",
+          "time": "9 min"
+        },
+        "walking": {
+          "miles": "3.6 mi",
+          "time": "1 hour 19 min"
+        }
+      },
+      {
+        "name": "Helen Becich",
+        "lat": 34.1578015,
+        "lon": -118.231412,
+        "driving": {
+          "miles": "8.9 mi",
+          "time": "14 min"
+        },
+        "walking": {
+          "miles": "9.3 mi",
+          "time": "3 hours 28 min"
+        }
+      },
+      {
+        "name": "Dan & Eileen Collins",
+        "lat": 34.1896915,
+        "lon": -118.1388309,
+        "driving": {
+          "miles": "4.0 mi",
+          "time": "9 min"
+        },
+        "walking": {
+          "miles": "3.6 mi",
+          "time": "1 hour 26 min"
+        }
+      },
+      {
+        "name": "Tom & Jan Selinske",
+        "lat": 34.1742915,
+        "lon": -118.1303586,
+        "driving": {
+          "miles": "2.2 mi",
+          "time": "6 min"
+        },
+        "walking": {
+          "miles": "2.2 mi",
+          "time": "51 min"
+        }
+      },
+      {
+        "name": "Mike & Mary Veselich",
+        "lat": 34.2004099,
+        "lon": -118.1410491,
+        "driving": {
+          "miles": "4.7 mi",
+          "time": "12 min"
+        },
+        "walking": {
+          "miles": "4.4 mi",
+          "time": "1 hour 47 min"
+        }
+      },
+      {
+        "name": "Chris & Hana Veselich",
+        "lat": 34.2168295,
+        "lon": -118.2386256,
+        "driving": {
+          "miles": "11.0 mi",
+          "time": "15 min"
+        },
+        "walking": {
+          "miles": "10.0 mi",
+          "time": "3 hours 51 min"
+        }
+      },
+      {
+        "name": "Dave & Jane Rumph",
+        "lat": 34.1656763,
+        "lon": -118.0748669,
+        "driving": {
+          "miles": "2.3 mi",
+          "time": "7 min"
+        },
+        "walking": {
+          "miles": "2.3 mi",
+          "time": "51 min"
+        }
+      }
+    ]
+  },
+  "agent": {
+    "name": "Roarke Walker Satava",
+    "phone": "+16267689405",
+    "email": "—"
+  },
+  "dateListed": "2026-04-15",
+  "priceHistory": [
+    {
+      "type": "listed",
+      "label": "Listed",
+      "date": "Apr 15, 2026",
+      "amount": 1797000
+    },
+    {
+      "type": "sold",
+      "label": "Sold (MLS)",
+      "date": "Jan 30, 2023",
+      "amount": 1275000
+    },
+    {
+      "type": "sold",
+      "label": "Sold (Public Records)",
+      "date": "Jan 30, 2023",
+      "amount": 1275000
+    },
+    {
+      "type": "reduced",
+      "label": "Price Changed",
+      "date": "Dec 16, 2022",
+      "amount": 1335000
+    },
+    {
+      "type": "listed",
+      "label": "Listed",
+      "date": "Dec 2, 2022",
+      "amount": 1299900
+    },
+    {
+      "type": "sold",
+      "label": "Sold (Public Records)",
+      "date": "Dec 8, 1971",
+      "amount": 25000
+    }
+  ],
+  "lastSold": {
+    "date": "Jan 30, 2023",
+    "price": 1275000
+  },
+  "estimates": {
+    "redfin": 2020876
+  },
+  "listingUrl": "https://www.redfin.com/CA/Pasadena/2089-E-Mountain-St-91104/home/7202169",
+  "listingSource": "redfin",
+  "redfinUrl": "https://www.redfin.com/CA/Pasadena/2089-E-Mountain-St-91104/home/7202169",
+  "lat": 34.1617924,
+  "lon": -118.1072602,
+  "dateAdded": "2026-04-22T01:39:55.804Z"
+}
