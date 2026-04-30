@@ -73,7 +73,7 @@ When a new property stub is processed, `scripts/research.js` runs these steps:
 
 ```sh
 git clone <your-repo-url>
-cd house-hunting
+cd back-to-pasadena
 npm install
 ```
 
