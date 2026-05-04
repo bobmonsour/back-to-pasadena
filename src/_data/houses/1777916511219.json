@@ -1,0 +1,195 @@
+{
+  "id": 1777916511219,
+  "address": "350 Glen Summer Rd",
+  "city": "Pasadena, CA 91105",
+  "price": 2675000,
+  "beds": 4,
+  "baths": 3,
+  "sqft": 2792,
+  "lotSize": 17746,
+  "yearBuilt": 1941,
+  "images": [
+    "/images/1777916511219/photo-1.jpg",
+    "/images/1777916511219/photo-2.jpg",
+    "/images/1777916511219/photo-3.jpg"
+  ],
+  "neighborhood": "<cite index=\"6-1,18-1\">This property is located in the Annandale neighborhood of Pasadena</cite>, which is known for <cite index=\"10-1,10-2,10-3\">its charming character, beautiful architecture, and tree-lined streets with a walk score of 69 making it a very walkable area</cite>.",
+  "parkProximity": "<cite index=\"15-1,15-9\">Approximately 0.3 miles to Annandale Canyon Park at 1410 Wierfield Dr</cite>",
+  "floodRisk": "Low — Zone X, minimal flood hazard (FEMA NFHL)",
+  "fireRisk": "Very High — very high fire hazard severity zone (CAL FIRE FHSZ)",
+  "crimeRating": "<cite index=\"24-19,24-20\">Moderate — Grade D (CrimeGrade.org), with Pasadena ranking in the 19th percentile for safety</cite>",
+  "distances": [
+    {
+      "name": "Whole Foods Market",
+      "address": "465 S Arroyo Pkwy, Pasadena, CA 91105",
+      "miles": "3.0 mi",
+      "time": "8 min"
+    },
+    {
+      "name": "Trader Joe's",
+      "address": "613 Mission St, South Pasadena, CA 91030",
+      "miles": "2.3 mi",
+      "time": "7 min"
+    },
+    {
+      "name": "Costco",
+      "address": "3972 Costco Dr, Arcadia, CA 91006",
+      "miles": "9.7 mi",
+      "time": "14 min"
+    },
+    {
+      "name": "Target",
+      "address": "777 E Colorado Blvd, Pasadena, CA 91101",
+      "miles": "3.7 mi",
+      "time": "9 min"
+    },
+    {
+      "name": "Home Depot",
+      "address": "2881 E Walnut St, Pasadena, CA 91107",
+      "miles": "5.8 mi",
+      "time": "10 min"
+    },
+    {
+      "name": "Republik Coffee",
+      "address": "48 W Green St, Pasadena, CA 91105",
+      "miles": "2.1 mi",
+      "time": "7 min"
+    }
+  ],
+  "peepRating": {
+    "avgMiles": "6.0 mi",
+    "avgTime": "12 min",
+    "distances": [
+      {
+        "name": "Joan & David",
+        "lat": 34.1569436,
+        "lon": -118.1613219,
+        "driving": {
+          "miles": "2.4 mi",
+          "time": "7 min"
+        },
+        "walking": {
+          "miles": "2.2 mi",
+          "time": "51 min"
+        }
+      },
+      {
+        "name": "Helen Becich",
+        "lat": 34.1578015,
+        "lon": -118.231412,
+        "driving": {
+          "miles": "5.5 mi",
+          "time": "11 min"
+        },
+        "walking": {
+          "miles": "4.8 mi",
+          "time": "1 hour 49 min"
+        }
+      },
+      {
+        "name": "Dan & Eileen Collins",
+        "lat": 34.1896915,
+        "lon": -118.1388309,
+        "driving": {
+          "miles": "5.9 mi",
+          "time": "12 min"
+        },
+        "walking": {
+          "miles": "5.3 mi",
+          "time": "2 hours 5 min"
+        }
+      },
+      {
+        "name": "Tom & Jan Selinske",
+        "lat": 34.1742915,
+        "lon": -118.1303586,
+        "driving": {
+          "miles": "5.0 mi",
+          "time": "12 min"
+        },
+        "walking": {
+          "miles": "4.8 mi",
+          "time": "1 hour 51 min"
+        }
+      },
+      {
+        "name": "Mike & Mary Veselich",
+        "lat": 34.2004099,
+        "lon": -118.1410491,
+        "driving": {
+          "miles": "6.3 mi",
+          "time": "14 min"
+        },
+        "walking": {
+          "miles": "6.0 mi",
+          "time": "2 hours 24 min"
+        }
+      },
+      {
+        "name": "Chris & Hana Veselich",
+        "lat": 34.2168295,
+        "lon": -118.2386256,
+        "driving": {
+          "miles": "9.7 mi",
+          "time": "13 min"
+        },
+        "walking": {
+          "miles": "9.4 mi",
+          "time": "3 hours 40 min"
+        }
+      },
+      {
+        "name": "Dave & Jane Rumph",
+        "lat": 34.1656763,
+        "lon": -118.0748669,
+        "driving": {
+          "miles": "7.3 mi",
+          "time": "14 min"
+        },
+        "walking": {
+          "miles": "7.2 mi",
+          "time": "2 hours 43 min"
+        }
+      }
+    ]
+  },
+  "agent": {
+    "name": "Kathleen Bywater",
+    "phone": "+18186965090",
+    "email": "—"
+  },
+  "dateListed": "2026-04-30",
+  "priceHistory": [
+    {
+      "type": "listed",
+      "label": "Coming Soon",
+      "date": "Apr 30, 2026",
+      "amount": 2675000
+    },
+    {
+      "type": "sold",
+      "label": "Sold (Public Records)",
+      "date": "Feb 9, 1996",
+      "amount": 410000
+    },
+    {
+      "type": "sold",
+      "label": "Sold (Public Records)",
+      "date": "Mar 1, 1991",
+      "amount": 565000
+    }
+  ],
+  "lastSold": {
+    "date": "Feb 9, 1996",
+    "price": 410000
+  },
+  "estimates": {
+    "redfin": 2680143
+  },
+  "listingUrl": "https://www.redfin.com/CA/Pasadena/350-Glen-Summer-Rd-91105/home/7186477",
+  "listingSource": "redfin",
+  "redfinUrl": "https://www.redfin.com/CA/Pasadena/350-Glen-Summer-Rd-91105/home/7186477",
+  "lat": 34.1354384,
+  "lon": -118.1743099,
+  "dateAdded": "2026-05-04T17:44:51.479Z"
+}

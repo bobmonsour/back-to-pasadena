@@ -1,0 +1,242 @@
+{
+  "id": 1777916493032,
+  "address": "904 Wiladonda Dr",
+  "city": "La Canada Flintridge, CA 91011",
+  "price": 2950000,
+  "beds": 4,
+  "baths": 4,
+  "sqft": 3218,
+  "lotSize": 12625,
+  "yearBuilt": 1952,
+  "images": [
+    "/images/1777916493032/photo-1.jpg",
+    "/images/1777916493032/photo-2.jpg",
+    "/images/1777916493032/photo-3.jpg",
+    "/images/1777916493032/photo-4.jpg",
+    "/images/1777916493032/photo-5.jpg",
+    "/images/1777916493032/photo-6.jpg",
+    "/images/1777916493032/photo-7.jpg",
+    "/images/1777916493032/photo-8.jpg",
+    "/images/1777916493032/photo-9.jpg",
+    "/images/1777916493032/photo-10.jpg",
+    "/images/1777916493032/photo-11.jpg",
+    "/images/1777916493032/photo-12.jpg",
+    "/images/1777916493032/photo-13.jpg",
+    "/images/1777916493032/photo-14.jpg",
+    "/images/1777916493032/photo-15.jpg",
+    "/images/1777916493032/photo-16.jpg",
+    "/images/1777916493032/photo-17.jpg",
+    "/images/1777916493032/photo-18.jpg",
+    "/images/1777916493032/photo-19.jpg",
+    "/images/1777916493032/photo-20.jpg",
+    "/images/1777916493032/photo-21.jpg",
+    "/images/1777916493032/photo-22.jpg",
+    "/images/1777916493032/photo-23.jpg",
+    "/images/1777916493032/photo-24.jpg",
+    "/images/1777916493032/photo-25.jpg",
+    "/images/1777916493032/photo-26.jpg",
+    "/images/1777916493032/photo-27.jpg",
+    "/images/1777916493032/photo-28.jpg",
+    "/images/1777916493032/photo-29.jpg",
+    "/images/1777916493032/photo-30.jpg",
+    "/images/1777916493032/photo-31.jpg",
+    "/images/1777916493032/photo-32.jpg",
+    "/images/1777916493032/photo-33.jpg",
+    "/images/1777916493032/photo-34.jpg",
+    "/images/1777916493032/photo-35.jpg",
+    "/images/1777916493032/photo-36.jpg",
+    "/images/1777916493032/photo-37.jpg",
+    "/images/1777916493032/photo-38.jpg",
+    "/images/1777916493032/photo-39.jpg",
+    "/images/1777916493032/photo-40.jpg",
+    "/images/1777916493032/photo-41.jpg",
+    "/images/1777916493032/photo-42.jpg",
+    "/images/1777916493032/photo-43.jpg",
+    "/images/1777916493032/photo-44.jpg",
+    "/images/1777916493032/photo-45.jpg",
+    "/images/1777916493032/photo-46.jpg",
+    "/images/1777916493032/photo-47.jpg",
+    "/images/1777916493032/photo-48.jpg",
+    "/images/1777916493032/photo-49.jpg",
+    "/images/1777916493032/photo-50.jpg"
+  ],
+  "neighborhood": "<cite index=\"5-4,5-5\">East La Cañada Flintridge is a peaceful, upscale neighborhood in La Canada Flintridge, CA. Known for its excellent schools, beautiful homes, and close-knit community, it's a great place for families.</cite> <cite index=\"1-1,1-4\">La Cañada Flintridge has an average Walk Score of 34 with 20,246 residents. Most errands require a car.</cite>",
+  "parkProximity": "<cite index=\"23-1,28-1\">0.5 miles to Memorial Park (1301 Foothill Blvd)</cite>",
+  "floodRisk": "Low — Zone X, minimal flood hazard (FEMA NFHL)",
+  "fireRisk": "Very High — very high fire hazard severity zone (CAL FIRE FHSZ)",
+  "crimeRating": "<cite index=\"31-11,31-12\">Moderate — Grade C- (CrimeGrade.org)</cite>",
+  "distances": [
+    {
+      "name": "Whole Foods Market",
+      "address": "465 S Arroyo Pkwy, Pasadena, CA 91105",
+      "miles": "7.0 mi",
+      "time": "11 min"
+    },
+    {
+      "name": "Trader Joe's",
+      "address": "2462 Honolulu Ave, Montrose, CA 91020",
+      "miles": "2.7 mi",
+      "time": "6 min"
+    },
+    {
+      "name": "Costco",
+      "address": "3972 Costco Dr, Arcadia, CA 91006",
+      "miles": "13.3 mi",
+      "time": "16 min"
+    },
+    {
+      "name": "Target",
+      "address": "777 E Colorado Blvd, Pasadena, CA 91101",
+      "miles": "7.3 mi",
+      "time": "11 min"
+    },
+    {
+      "name": "Home Depot",
+      "address": "5040 San Fernando Rd, Glendale, CA 91204",
+      "miles": "9.4 mi",
+      "time": "13 min"
+    },
+    {
+      "name": "Republik Coffee",
+      "address": "48 W Green St, Pasadena, CA 91105",
+      "miles": "6.3 mi",
+      "time": "10 min"
+    }
+  ],
+  "peepRating": {
+    "avgMiles": "6.1 mi",
+    "avgTime": "11 min",
+    "distances": [
+      {
+        "name": "Joan & David",
+        "lat": 34.1569436,
+        "lon": -118.1613219,
+        "driving": {
+          "miles": "5.3 mi",
+          "time": "8 min"
+        },
+        "walking": {
+          "miles": "5.0 mi",
+          "time": "1 hour 47 min"
+        }
+      },
+      {
+        "name": "Helen Becich",
+        "lat": 34.1578015,
+        "lon": -118.231412,
+        "driving": {
+          "miles": "6.2 mi",
+          "time": "9 min"
+        },
+        "walking": {
+          "miles": "6.1 mi",
+          "time": "2 hours 9 min"
+        }
+      },
+      {
+        "name": "Dan & Eileen Collins",
+        "lat": 34.1896915,
+        "lon": -118.1388309,
+        "driving": {
+          "miles": "5.5 mi",
+          "time": "11 min"
+        },
+        "walking": {
+          "miles": "5.2 mi",
+          "time": "1 hour 54 min"
+        }
+      },
+      {
+        "name": "Tom & Jan Selinske",
+        "lat": 34.1742915,
+        "lon": -118.1303586,
+        "driving": {
+          "miles": "5.9 mi",
+          "time": "13 min"
+        },
+        "walking": {
+          "miles": "5.7 mi",
+          "time": "2 hours 2 min"
+        }
+      },
+      {
+        "name": "Mike & Mary Veselich",
+        "lat": 34.2004099,
+        "lon": -118.1410491,
+        "driving": {
+          "miles": "5.9 mi",
+          "time": "13 min"
+        },
+        "walking": {
+          "miles": "5.4 mi",
+          "time": "2 hours 2 min"
+        }
+      },
+      {
+        "name": "Chris & Hana Veselich",
+        "lat": 34.2168295,
+        "lon": -118.2386256,
+        "driving": {
+          "miles": "3.0 mi",
+          "time": "5 min"
+        },
+        "walking": {
+          "miles": "3.6 mi",
+          "time": "1 hour 21 min"
+        }
+      },
+      {
+        "name": "Dave & Jane Rumph",
+        "lat": 34.1656763,
+        "lon": -118.0748669,
+        "driving": {
+          "miles": "10.9 mi",
+          "time": "16 min"
+        },
+        "walking": {
+          "miles": "9.7 mi",
+          "time": "3 hours 31 min"
+        }
+      }
+    ]
+  },
+  "agent": {
+    "name": "Payton Parker",
+    "phone": "+16267689405",
+    "email": "—"
+  },
+  "dateListed": "2026-04-30",
+  "priceHistory": [
+    {
+      "type": "listed",
+      "label": "Listed",
+      "date": "Apr 30, 2026",
+      "amount": 2950000
+    },
+    {
+      "type": "sold",
+      "label": "Sold (Public Records)",
+      "date": "May 30, 1997",
+      "amount": 505000
+    },
+    {
+      "type": "sold",
+      "label": "Sold (Public Records)",
+      "date": "May 1, 1985",
+      "amount": 265000
+    }
+  ],
+  "lastSold": {
+    "date": "May 30, 1997",
+    "price": 505000
+  },
+  "estimates": {
+    "redfin": 2200000
+  },
+  "listingUrl": "https://www.redfin.com/CA/La-Canada-Flintridge/904-Wiladonda-Dr-91011/home/7247427",
+  "listingSource": "redfin",
+  "redfinUrl": "https://www.redfin.com/CA/La-Canada-Flintridge/904-Wiladonda-Dr-91011/home/7247427",
+  "lat": 34.2101782,
+  "lon": -118.1981116,
+  "dateAdded": "2026-05-04T17:44:21.594Z"
+}

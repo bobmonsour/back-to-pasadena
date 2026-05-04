@@ -1,0 +1,256 @@
+{
+  "id": 1777916473999,
+  "address": "604 De Nova St",
+  "city": "La Canada Flintridge, CA 91011",
+  "price": 3195000,
+  "beds": 4,
+  "baths": 4.5,
+  "sqft": 3286,
+  "lotSize": 13842,
+  "yearBuilt": 1949,
+  "images": [
+    "/images/1777916473999/photo-1.jpg",
+    "/images/1777916473999/photo-2.jpg",
+    "/images/1777916473999/photo-3.jpg",
+    "/images/1777916473999/photo-4.jpg",
+    "/images/1777916473999/photo-5.jpg",
+    "/images/1777916473999/photo-6.jpg",
+    "/images/1777916473999/photo-7.jpg",
+    "/images/1777916473999/photo-8.jpg",
+    "/images/1777916473999/photo-9.jpg",
+    "/images/1777916473999/photo-10.jpg",
+    "/images/1777916473999/photo-11.jpg",
+    "/images/1777916473999/photo-12.jpg",
+    "/images/1777916473999/photo-13.jpg",
+    "/images/1777916473999/photo-14.jpg",
+    "/images/1777916473999/photo-15.jpg",
+    "/images/1777916473999/photo-16.jpg",
+    "/images/1777916473999/photo-17.jpg",
+    "/images/1777916473999/photo-18.jpg",
+    "/images/1777916473999/photo-19.jpg",
+    "/images/1777916473999/photo-20.jpg",
+    "/images/1777916473999/photo-21.jpg",
+    "/images/1777916473999/photo-22.jpg",
+    "/images/1777916473999/photo-23.jpg",
+    "/images/1777916473999/photo-24.jpg",
+    "/images/1777916473999/photo-25.jpg",
+    "/images/1777916473999/photo-26.jpg",
+    "/images/1777916473999/photo-27.jpg",
+    "/images/1777916473999/photo-28.jpg",
+    "/images/1777916473999/photo-29.jpg",
+    "/images/1777916473999/photo-30.jpg",
+    "/images/1777916473999/photo-31.jpg",
+    "/images/1777916473999/photo-32.jpg",
+    "/images/1777916473999/photo-33.jpg",
+    "/images/1777916473999/photo-34.jpg",
+    "/images/1777916473999/photo-35.jpg",
+    "/images/1777916473999/photo-36.jpg",
+    "/images/1777916473999/photo-37.jpg",
+    "/images/1777916473999/photo-38.jpg",
+    "/images/1777916473999/photo-39.jpg",
+    "/images/1777916473999/photo-40.jpg",
+    "/images/1777916473999/photo-41.jpg",
+    "/images/1777916473999/photo-42.jpg",
+    "/images/1777916473999/photo-43.jpg",
+    "/images/1777916473999/photo-44.jpg",
+    "/images/1777916473999/photo-45.jpg",
+    "/images/1777916473999/photo-46.jpg",
+    "/images/1777916473999/photo-47.jpg",
+    "/images/1777916473999/photo-48.jpg",
+    "/images/1777916473999/photo-49.jpg",
+    "/images/1777916473999/photo-50.jpg",
+    "/images/1777916473999/photo-51.jpg",
+    "/images/1777916473999/photo-52.jpg"
+  ],
+  "neighborhood": "La Cañada Flintridge is a quiet, upscale suburban community nestled in the foothills of the San Gabriel Mountains, featuring large custom homes on spacious lots with a tranquil, residential character and strong family-oriented atmosphere. The area offers winding tree-lined streets, mature landscaping, and a variety of architectural styles from Spanish Colonial to Mid-Century Modern.",
+  "parkProximity": "1.5 miles to Memorial Park (1301 Foothill Blvd) and 2.2 miles to Descanso Gardens",
+  "floodRisk": "Low — Zone X, minimal flood hazard (FEMA NFHL)",
+  "fireRisk": "Very High — very high fire hazard severity zone (CAL FIRE FHSZ)",
+  "crimeRating": "Moderate — Grade C- (CrimeGrade.org)",
+  "distances": [
+    {
+      "name": "Whole Foods Market",
+      "address": "465 S Arroyo Pkwy, Pasadena, CA 91105",
+      "miles": "6.3 mi",
+      "time": "12 min"
+    },
+    {
+      "name": "Trader Joe's",
+      "address": "2462 Honolulu Ave, Montrose, CA 91020",
+      "miles": "3.7 mi",
+      "time": "8 min"
+    },
+    {
+      "name": "Costco",
+      "address": "3972 Costco Dr, Arcadia, CA 91006",
+      "miles": "12.6 mi",
+      "time": "17 min"
+    },
+    {
+      "name": "Target",
+      "address": "777 E Colorado Blvd, Pasadena, CA 91101",
+      "miles": "6.6 mi",
+      "time": "12 min"
+    },
+    {
+      "name": "Home Depot",
+      "address": "2881 E Walnut St, Pasadena, CA 91107",
+      "miles": "8.8 mi",
+      "time": "14 min"
+    },
+    {
+      "name": "Republik Coffee",
+      "address": "48 W Green St, Pasadena, CA 91105",
+      "miles": "5.6 mi",
+      "time": "11 min"
+    }
+  ],
+  "peepRating": {
+    "avgMiles": "5.9 mi",
+    "avgTime": "12 min",
+    "distances": [
+      {
+        "name": "Joan & David",
+        "lat": 34.1569436,
+        "lon": -118.1613219,
+        "driving": {
+          "miles": "4.7 mi",
+          "time": "9 min"
+        },
+        "walking": {
+          "miles": "4.6 mi",
+          "time": "1 hour 39 min"
+        }
+      },
+      {
+        "name": "Helen Becich",
+        "lat": 34.1578015,
+        "lon": -118.231412,
+        "driving": {
+          "miles": "7.2 mi",
+          "time": "10 min"
+        },
+        "walking": {
+          "miles": "5.9 mi",
+          "time": "2 hours 6 min"
+        }
+      },
+      {
+        "name": "Dan & Eileen Collins",
+        "lat": 34.1896915,
+        "lon": -118.1388309,
+        "driving": {
+          "miles": "4.8 mi",
+          "time": "12 min"
+        },
+        "walking": {
+          "miles": "4.7 mi",
+          "time": "1 hour 46 min"
+        }
+      },
+      {
+        "name": "Tom & Jan Selinske",
+        "lat": 34.1742915,
+        "lon": -118.1303586,
+        "driving": {
+          "miles": "5.2 mi",
+          "time": "13 min"
+        },
+        "walking": {
+          "miles": "5.2 mi",
+          "time": "1 hour 54 min"
+        }
+      },
+      {
+        "name": "Mike & Mary Veselich",
+        "lat": 34.2004099,
+        "lon": -118.1410491,
+        "driving": {
+          "miles": "5.2 mi",
+          "time": "14 min"
+        },
+        "walking": {
+          "miles": "4.9 mi",
+          "time": "1 hour 54 min"
+        }
+      },
+      {
+        "name": "Chris & Hana Veselich",
+        "lat": 34.2168295,
+        "lon": -118.2386256,
+        "driving": {
+          "miles": "4.0 mi",
+          "time": "6 min"
+        },
+        "walking": {
+          "miles": "3.4 mi",
+          "time": "1 hour 19 min"
+        }
+      },
+      {
+        "name": "Dave & Jane Rumph",
+        "lat": 34.1656763,
+        "lon": -118.0748669,
+        "driving": {
+          "miles": "10.2 mi",
+          "time": "17 min"
+        },
+        "walking": {
+          "miles": "9.3 mi",
+          "time": "3 hours 23 min"
+        }
+      }
+    ]
+  },
+  "agent": {
+    "name": "Sheila Arat",
+    "phone": "+16267689405",
+    "email": "—"
+  },
+  "dateListed": "2026-05-01",
+  "priceHistory": [
+    {
+      "type": "listed",
+      "label": "Listed",
+      "date": "May 1, 2026",
+      "amount": 3195000
+    },
+    {
+      "type": "sold",
+      "label": "Sold (MLS)",
+      "date": "Mar 18, 2025",
+      "amount": 1850000
+    },
+    {
+      "type": "listed",
+      "label": "Listed",
+      "date": "Jan 27, 2025",
+      "amount": 1795000
+    },
+    {
+      "type": "sold",
+      "label": "Sold (MLS)",
+      "date": "Jan 15, 2025",
+      "amount": 1850000
+    },
+    {
+      "type": "listed",
+      "label": "Listed",
+      "date": "Nov 20, 2024",
+      "amount": 1795000
+    }
+  ],
+  "lastSold": {
+    "date": "Mar 18, 2025",
+    "price": 1850000
+  },
+  "estimates": {
+    "redfin": 3439939
+  },
+  "listingUrl": "https://www.redfin.com/CA/La-Canada-Flintridge/604-De-Nova-St-91011/home/7247640",
+  "listingSource": "redfin",
+  "redfinUrl": "https://www.redfin.com/CA/La-Canada-Flintridge/604-De-Nova-St-91011/home/7247640",
+  "lat": 34.2055541,
+  "lon": -118.1916433,
+  "dateAdded": "2026-05-04T17:43:45.046Z"
+}
