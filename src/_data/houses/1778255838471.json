@@ -1,0 +1,259 @@
+{
+  "id": 1778255838471,
+  "address": "330 Glen Summer Rd",
+  "city": "Pasadena, CA 91105",
+  "price": 3425000,
+  "beds": 4,
+  "baths": 4,
+  "sqft": 2881,
+  "lotSize": 11556,
+  "yearBuilt": 1940,
+  "images": [
+    "/images/1778255838471/photo-1.jpg",
+    "/images/1778255838471/photo-2.jpg",
+    "/images/1778255838471/photo-3.jpg",
+    "/images/1778255838471/photo-4.jpg",
+    "/images/1778255838471/photo-5.jpg",
+    "/images/1778255838471/photo-6.jpg",
+    "/images/1778255838471/photo-7.jpg",
+    "/images/1778255838471/photo-8.jpg",
+    "/images/1778255838471/photo-9.jpg",
+    "/images/1778255838471/photo-10.jpg",
+    "/images/1778255838471/photo-11.jpg",
+    "/images/1778255838471/photo-12.jpg",
+    "/images/1778255838471/photo-13.jpg",
+    "/images/1778255838471/photo-14.jpg",
+    "/images/1778255838471/photo-15.jpg",
+    "/images/1778255838471/photo-16.jpg",
+    "/images/1778255838471/photo-17.jpg",
+    "/images/1778255838471/photo-18.jpg",
+    "/images/1778255838471/photo-19.jpg",
+    "/images/1778255838471/photo-20.jpg",
+    "/images/1778255838471/photo-21.jpg",
+    "/images/1778255838471/photo-22.jpg",
+    "/images/1778255838471/photo-23.jpg",
+    "/images/1778255838471/photo-24.jpg",
+    "/images/1778255838471/photo-25.jpg",
+    "/images/1778255838471/photo-26.jpg",
+    "/images/1778255838471/photo-27.jpg",
+    "/images/1778255838471/photo-28.jpg",
+    "/images/1778255838471/photo-29.jpg",
+    "/images/1778255838471/photo-30.jpg",
+    "/images/1778255838471/photo-31.jpg"
+  ],
+  "neighborhood": "Located in the prestigious San Rafael neighborhood in the Annandale area of Pasadena, this quiet residential enclave features tree-lined streets with sidewalks and upscale homes ranging from character properties to million-dollar estates. The area offers a suburban feel with excellent walkability to local amenities and is known for its friendly community atmosphere.",
+  "parkProximity": "0.3 miles to San Rafael Park & Library at 1240 Nithsdale Road",
+  "floodRisk": "Unknown",
+  "fireRisk": "Very High — very high fire hazard severity zone (CAL FIRE FHSZ)",
+  "crimeRating": "C+ — Above Average Safety (CrimeGrade.org)",
+  "distances": [
+    {
+      "name": "Whole Foods Market",
+      "address": "465 S Arroyo Pkwy, Pasadena, CA 91105",
+      "miles": "2.9 mi",
+      "time": "8 min"
+    },
+    {
+      "name": "Trader Joe's",
+      "address": "613 Mission St, South Pasadena, CA 91030",
+      "miles": "2.3 mi",
+      "time": "7 min"
+    },
+    {
+      "name": "Costco",
+      "address": "3972 Costco Dr, Arcadia, CA 91006",
+      "miles": "9.6 mi",
+      "time": "14 min"
+    },
+    {
+      "name": "Target",
+      "address": "777 E Colorado Blvd, Pasadena, CA 91101",
+      "miles": "3.6 mi",
+      "time": "9 min"
+    },
+    {
+      "name": "Home Depot",
+      "address": "2881 E Walnut St, Pasadena, CA 91107",
+      "miles": "5.8 mi",
+      "time": "10 min"
+    },
+    {
+      "name": "Republik Coffee",
+      "address": "48 W Green St, Pasadena, CA 91105",
+      "miles": "2.1 mi",
+      "time": "7 min"
+    }
+  ],
+  "peepRating": {
+    "avgMiles": "6.0 mi",
+    "avgTime": "12 min",
+    "distances": [
+      {
+        "name": "Joan & David",
+        "lat": 34.1569436,
+        "lon": -118.1613219,
+        "driving": {
+          "miles": "2.4 mi",
+          "time": "7 min"
+        },
+        "walking": {
+          "miles": "2.2 mi",
+          "time": "51 min"
+        }
+      },
+      {
+        "name": "Helen Becich",
+        "lat": 34.1578015,
+        "lon": -118.231412,
+        "driving": {
+          "miles": "5.4 mi",
+          "time": "11 min"
+        },
+        "walking": {
+          "miles": "4.7 mi",
+          "time": "1 hour 48 min"
+        }
+      },
+      {
+        "name": "Dan & Eileen Collins",
+        "lat": 34.1896915,
+        "lon": -118.1388309,
+        "driving": {
+          "miles": "5.8 mi",
+          "time": "12 min"
+        },
+        "walking": {
+          "miles": "5.2 mi",
+          "time": "2 hours 5 min"
+        }
+      },
+      {
+        "name": "Tom & Jan Selinske",
+        "lat": 34.1742915,
+        "lon": -118.1303586,
+        "driving": {
+          "miles": "4.9 mi",
+          "time": "12 min"
+        },
+        "walking": {
+          "miles": "4.8 mi",
+          "time": "1 hour 50 min"
+        }
+      },
+      {
+        "name": "Mike & Mary Veselich",
+        "lat": 34.2004099,
+        "lon": -118.1410491,
+        "driving": {
+          "miles": "6.3 mi",
+          "time": "14 min"
+        },
+        "walking": {
+          "miles": "5.9 mi",
+          "time": "2 hours 23 min"
+        }
+      },
+      {
+        "name": "Chris & Hana Veselich",
+        "lat": 34.2168295,
+        "lon": -118.2386256,
+        "driving": {
+          "miles": "9.7 mi",
+          "time": "13 min"
+        },
+        "walking": {
+          "miles": "9.3 mi",
+          "time": "3 hours 40 min"
+        }
+      },
+      {
+        "name": "Dave & Jane Rumph",
+        "lat": 34.1656763,
+        "lon": -118.0748669,
+        "driving": {
+          "miles": "7.3 mi",
+          "time": "14 min"
+        },
+        "walking": {
+          "miles": "7.2 mi",
+          "time": "2 hours 43 min"
+        }
+      }
+    ]
+  },
+  "agent": {
+    "name": "Natalie Wycoff",
+    "phone": "+16267689405",
+    "email": "—"
+  },
+  "dateListed": "2026-04-17",
+  "priceHistory": [
+    {
+      "type": "reduced",
+      "label": "Price Changed",
+      "date": "May 6, 2026",
+      "amount": 3425000
+    },
+    {
+      "type": "listed",
+      "label": "Listed",
+      "date": "Apr 17, 2026",
+      "amount": 3295000
+    },
+    {
+      "type": "listed",
+      "label": "Coming Soon",
+      "date": "Apr 16, 2026",
+      "amount": 3295000
+    },
+    {
+      "type": "sold",
+      "label": "Sold (MLS)",
+      "date": "Dec 16, 2019",
+      "amount": 2170000
+    },
+    {
+      "type": "sold",
+      "label": "Sold (Public Records)",
+      "date": "Dec 16, 2019",
+      "amount": 2170000
+    },
+    {
+      "type": "listed",
+      "label": "Listed",
+      "date": "Sep 17, 2019",
+      "amount": 2198000
+    },
+    {
+      "type": "sold",
+      "label": "Sold (Public Records)",
+      "date": "Jun 4, 1998",
+      "amount": 558500
+    },
+    {
+      "type": "listed",
+      "label": "Listed",
+      "date": "Mar 13, 1998",
+      "amount": 585000
+    },
+    {
+      "type": "sold",
+      "label": "Sold (Public Records)",
+      "date": "May 3, 1989",
+      "amount": 580000
+    }
+  ],
+  "lastSold": {
+    "date": "Dec 16, 2019",
+    "price": 2170000
+  },
+  "estimates": {
+    "redfin": 3385724
+  },
+  "listingUrl": "https://www.redfin.com/CA/Pasadena/330-Glen-Summer-Rd-91105/home/7186395",
+  "listingSource": "redfin",
+  "redfinUrl": "https://www.redfin.com/CA/Pasadena/330-Glen-Summer-Rd-91105/home/7186395",
+  "lat": 34.1359012,
+  "lon": -118.1743406,
+  "dateAdded": "2026-05-08T16:05:52.092Z"
+}
