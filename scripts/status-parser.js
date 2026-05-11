@@ -20,7 +20,7 @@ export function normalizeStatus(raw) {
   if (s.startsWith("closed")) return "Sold";
   if (s.includes("sold")) return "Sold";
   if (s.includes("withdrawn") || s.includes("cancelled") || s.includes("off market") || s.includes("off-market")) return "Off Market";
-  if (s.includes("active") || s.includes("for sale")) return "Active";
+  if (/\bactive\b/i.test(s) || s.includes("for sale")) return "Active";
   return null;
 }
 

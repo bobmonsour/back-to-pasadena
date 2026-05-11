@@ -53,6 +53,11 @@ test("returns null for unknown / empty", () => {
   assert.equal(normalizeStatus("Random Words"), null);
   assert.equal(normalizeStatus(123), null);
 });
+test("does not false-positive on inactive / deactivated", () => {
+  assert.equal(normalizeStatus("inactive"), null);
+  assert.equal(normalizeStatus("This listing is inactive"), null);
+  assert.equal(normalizeStatus("deactivated account"), null);
+});
 
 console.log(`\n${passed} passed, ${failed} failed`);
 process.exit(failed > 0 ? 1 : 0);
