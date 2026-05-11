@@ -1,5 +1,6 @@
 import { formatPrice, formatLotSize, getDaysOnMarket } from "./utils.js";
 import { state } from "./app.js";
+import { statusBannerHtml } from "./status-banner.js";
 
 export function openComparison() {
   if (state.compareSet.size < 2) return alert("Select 2-3 properties to compare by clicking the grid icon on each card.");
@@ -36,6 +37,7 @@ export function openComparison() {
       ${items.map((h) => `
         <div class="comparison-img-card">
           <img src="${h.images[0]}" alt="${h.address}">
+          ${statusBannerHtml(h.status)}
           <div class="comparison-img-info">
             <div class="comparison-img-price">${formatPrice(h.price)}</div>
             <div class="comparison-img-addr">${h.address}, ${h.city}</div>

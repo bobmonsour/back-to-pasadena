@@ -2,6 +2,7 @@ import { formatPrice, formatLotSize, getDaysOnMarket } from "./utils.js";
 import { patchState } from "./api.js";
 import { state } from "./app.js";
 import { renderCards } from "./cards.js";
+import { statusBannerHtml } from "./status-banner.js";
 
 let galleryIndex = 0;
 
@@ -63,6 +64,7 @@ export function openDetail(id, preserveGallery = false) {
   document.getElementById("statusOffer").checked = !!h.offer;
   document.getElementById("statusRejected").checked = !!h.rejected;
   document.getElementById("galleryMainImg").src = h.images[0];
+  document.getElementById("detailStatusBanner").innerHTML = statusBannerHtml(h.status);
 
   // Set up gallery controls
   const hasMultiple = h.images.length > 1;
