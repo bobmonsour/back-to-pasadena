@@ -74,5 +74,23 @@ for (const [filename, expected] of fixtureExpectations) {
   });
 }
 
+console.log("\nparseStatus (JSON-LD fallback):");
+test("JSON-LD OutOfStock → Sold when no mlsStatusDisplay", () => {
+  const html = `<html><script type="application/ld+json">${JSON.stringify({offers:{availability:"https://schema.org/OutOfStock"}})}</script></html>`;
+  assert.equal(parseStatus(html), "Sold");
+});
+test("JSON-LD InStock → null (ambiguous; primary detector should win)", () => {
+  const html = `<html><script type="application/ld+json">${JSON.stringify({offers:{availability:"https://schema.org/InStock"}})}</script></html>`;
+  assert.equal(parseStatus(html), null);
+});
+test("JSON-LD availability inside mainEntity.offers also works", () => {
+  const html = `<html><script type="application/ld+json">${JSON.stringify({mainEntity:{offers:{availability:"https://schema.org/OutOfStock"}}})}</script></html>`;
+  assert.equal(parseStatus(html), "Sold");
+});
+test("malformed JSON-LD blocks are skipped silently", () => {
+  const html = `<html><script type="application/ld+json">{not json}</script><script type="application/ld+json">${JSON.stringify({offers:{availability:"https://schema.org/OutOfStock"}})}</script></html>`;
+  assert.equal(parseStatus(html), "Sold");
+});
+
 console.log(`\n${passed} passed, ${failed} failed`);
 process.exit(failed > 0 ? 1 : 0);

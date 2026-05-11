@@ -34,6 +34,35 @@ function detectFromMlsStatusDisplay(html) {
   return normalizeStatus(match[1]);
 }
 
+// Fallback: detect status from JSON-LD <script type="application/ld+json"> blocks.
+// Real-data inspection showed OutOfStock appears only on Sold/Closed listings,
+// while InStock is ambiguous (Active + Pending + Contingent + Backup Offers all
+// use it). So only OutOfStock is a reliable positive signal here.
+function detectFromJsonLd(html) {
+  if (!html || typeof html !== "string") return null;
+  const re = /<script type="application\/ld\+json">([\s\S]*?)<\/script>/g;
+  let m;
+  while ((m = re.exec(html)) !== null) {
+    let ld;
+    try {
+      ld = JSON.parse(m[1]);
+    } catch {
+      continue;
+    }
+    const availability =
+      (ld && ld.offers && ld.offers.availability) ||
+      (ld && ld.mainEntity && ld.mainEntity.offers && ld.mainEntity.offers.availability);
+    if (typeof availability === "string" && /OutOfStock/i.test(availability)) {
+      return "Sold";
+    }
+  }
+  return null;
+}
+
 export function parseStatus(html) {
-  return detectFromMlsStatusDisplay(html) || null;
+  return (
+    detectFromMlsStatusDisplay(html) ||
+    detectFromJsonLd(html) ||
+    null
+  );
 }
