@@ -256,5 +256,6 @@
   "redfinUrl": "https://www.redfin.com/CA/Pasadena/698-E-Elizabeth-St-91104/home/7262383",
   "lat": 34.1733015,
   "lon": -118.1362434,
-  "dateAdded": "2026-04-04T16:46:55.341Z"
+  "dateAdded": "2026-04-04T16:46:55.341Z",
+  "status": "Pending"
 }

@@ -248,5 +248,6 @@
   "redfinUrl": "https://www.redfin.com/CA/Pasadena/1096-N-Holliston-Ave-91104/home/7200022",
   "lat": 34.1648865,
   "lon": -118.1226721,
-  "dateAdded": "2026-05-11T21:31:20.879Z"
+  "dateAdded": "2026-05-11T21:31:20.879Z",
+  "status": "Active"
 }

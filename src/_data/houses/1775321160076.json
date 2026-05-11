@@ -282,5 +282,6 @@
   "redfinUrl": "https://www.redfin.com/CA/Pasadena/632-S-Grand-Ave-91105/home/7187467",
   "lat": 34.1349413,
   "lon": -118.1622725,
-  "dateAdded": "2026-04-04T16:47:31.920Z"
+  "dateAdded": "2026-04-04T16:47:31.920Z",
+  "status": "Pending"
 }

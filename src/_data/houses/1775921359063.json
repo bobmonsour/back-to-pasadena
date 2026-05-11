@@ -272,5 +272,6 @@
   "redfinUrl": "https://www.redfin.com/CA/Pasadena/1205-Wabash-St-91103/home/7183325",
   "lat": 34.1647926,
   "lon": -118.1760242,
-  "dateAdded": "2026-04-11T15:30:16.319Z"
+  "dateAdded": "2026-04-11T15:30:16.319Z",
+  "status": "Pending"
 }
