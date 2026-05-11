@@ -24,10 +24,10 @@ export function normalizeStatus(raw) {
   return null;
 }
 
-// Detect status from the embedded JSON payload Redfin ships in the HTML.
+// Detect status from the mlsStatusDisplay.displayValue key in Redfin's embedded JSON.
 // The literal bytes look like: mlsStatusDisplay\":{\"displayValue\":\"Active\"
 // (escaped quotes inside a JSON string). This is the most reliable source.
-function detectFromEmbeddedJson(html) {
+function detectFromMlsStatusDisplay(html) {
   if (!html || typeof html !== "string") return null;
   const match = html.match(/mlsStatusDisplay\\":\{\\"displayValue\\":\\"([^\\]+)/);
   if (!match) return null;
@@ -35,5 +35,5 @@ function detectFromEmbeddedJson(html) {
 }
 
 export function parseStatus(html) {
-  return detectFromEmbeddedJson(html) || null;
+  return detectFromMlsStatusDisplay(html) || null;
 }
