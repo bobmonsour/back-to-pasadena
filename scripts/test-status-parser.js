@@ -59,5 +59,20 @@ test("does not false-positive on inactive / deactivated", () => {
   assert.equal(normalizeStatus("deactivated account"), null);
 });
 
+console.log("\nparseStatus (embedded JSON):");
+const fixtureExpectations = [
+  ["active.html", "Active"],
+  ["pending.html", "Pending"],
+  ["contingent.html", "Contingent"],
+  ["sold.html", "Sold"],
+  ["closed-sale.html", "Sold"],
+  ["backup-offers.html", "Pending"],
+];
+for (const [filename, expected] of fixtureExpectations) {
+  test(`${filename} → ${expected}`, () => {
+    assert.equal(parseStatus(loadFixture(filename)), expected);
+  });
+}
+
 console.log(`\n${passed} passed, ${failed} failed`);
 process.exit(failed > 0 ? 1 : 0);
