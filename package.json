@@ -9,6 +9,7 @@
     "deploy": "npm run build && npx wrangler deploy",
     "research": "node scripts/research.js",
     "sync": "node scripts/sync-kv.js",
+    "refresh-status": "node scripts/refresh-status.js",
     "migrate": "node scripts/migrate-kv.js",
     "peep-rating": "node scripts/peep-rating.js"
   },

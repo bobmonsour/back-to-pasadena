@@ -240,5 +240,6 @@
   "redfinUrl": "https://www.redfin.com/CA/Altadena/1920-Maiden-Ln-91001/home/7261424",
   "lat": 34.1790355,
   "lon": -118.1283252,
-  "dateAdded": "2026-03-29T17:30:23.848Z"
+  "dateAdded": "2026-03-29T17:30:23.848Z",
+  "status": "Active"
 }

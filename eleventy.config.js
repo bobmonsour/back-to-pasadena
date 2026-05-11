@@ -14,6 +14,11 @@ export default function (eleventyConfig) {
     } catch (err) {
       console.error("pull-state failed:", err.message);
     }
+    try {
+      execSync("node scripts/refresh-status.js", { stdio: "inherit" });
+    } catch (err) {
+      console.error("refresh-status failed:", err.message);
+    }
   });
 
   eleventyConfig.addGlobalData("googleMapsKey", process.env.GOOGLE_MAPS_API_KEY || "");

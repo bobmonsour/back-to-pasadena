@@ -191,5 +191,6 @@
   "redfinUrl": "https://www.redfin.com/CA/Pasadena/350-Glen-Summer-Rd-91105/home/7186477",
   "lat": 34.1354384,
   "lon": -118.1743099,
-  "dateAdded": "2026-05-04T17:44:51.479Z"
+  "dateAdded": "2026-05-04T17:44:51.479Z",
+  "status": "Active"
 }

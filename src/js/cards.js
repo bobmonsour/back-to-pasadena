@@ -1,6 +1,7 @@
 import { formatPrice, formatLotSize, getDaysOnMarket } from "./utils.js";
 import { patchState } from "./api.js";
 import { state, getStatusFlags } from "./app.js";
+import { statusBannerHtml } from "./status-banner.js";
 
 export function getFilteredSortedHouses() {
   let h = [...state.houses];
@@ -46,6 +47,7 @@ function renderCard(h) {
           </button>
         </div>
         <div class="card-price-tag">${formatPrice(h.price)}</div>
+        ${statusBannerHtml(h.status)}
       </div>
       <div class="card-body">
         <div class="card-address"><a href="https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(h.address + ", " + h.city)}" target="_blank" onclick="event.stopPropagation()" style="color:inherit;text-decoration:none;border-bottom:1px dashed var(--text-tertiary)">${h.address}</a></div>

@@ -2,5 +2,6 @@ node_modules/
 _site/
 .wrangler/
 .env
+.dev.vars
 src/_data/mutableState.json
 .DS_Store

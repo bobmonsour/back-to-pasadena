@@ -252,5 +252,6 @@
   "redfinUrl": "https://www.redfin.com/CA/La-Canada-Flintridge/604-De-Nova-St-91011/home/7247640",
   "lat": 34.2055541,
   "lon": -118.1916433,
-  "dateAdded": "2026-05-04T17:43:45.046Z"
+  "dateAdded": "2026-05-04T17:43:45.046Z",
+  "status": "Pending"
 }

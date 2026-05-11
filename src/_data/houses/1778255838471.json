@@ -255,5 +255,6 @@
   "redfinUrl": "https://www.redfin.com/CA/Pasadena/330-Glen-Summer-Rd-91105/home/7186395",
   "lat": 34.1359012,
   "lon": -118.1743406,
-  "dateAdded": "2026-05-08T16:05:52.092Z"
+  "dateAdded": "2026-05-08T16:05:52.092Z",
+  "status": "Active"
 }

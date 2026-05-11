@@ -1219,6 +1219,28 @@ body {
 .info-item-value.risk-medium { color: var(--risk-medium); }
 .info-item-value.risk-high { color: var(--risk-high); }
 
+.status-banner {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  padding: 4px 10px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+  pointer-events: none;
+  z-index: 3;
+}
+.status-banner--in-motion {
+  background: #e57373;
+}
+.status-banner--sold {
+  background: #9e9e9e;
+}
+
 /* Distance list */
 .distance-list {
   display: flex;

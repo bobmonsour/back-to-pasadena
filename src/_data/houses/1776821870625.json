@@ -228,5 +228,6 @@
   "redfinUrl": "https://www.redfin.com/CA/Pasadena/2089-E-Mountain-St-91104/home/7202169",
   "lat": 34.1617924,
   "lon": -118.1072602,
-  "dateAdded": "2026-04-22T01:39:55.804Z"
+  "dateAdded": "2026-04-22T01:39:55.804Z",
+  "status": "Pending"
 }

@@ -249,5 +249,6 @@
   "redfinUrl": "https://www.redfin.com/CA/Pasadena/1450-N-Michigan-Ave-91104/home/7262904",
   "lat": 34.1708231,
   "lon": -118.1255075,
-  "dateAdded": "2026-04-22T01:39:17.764Z"
+  "dateAdded": "2026-04-22T01:39:17.764Z",
+  "status": "Contingent"
 }
