@@ -1,0 +1,252 @@
+{
+  "id": 1778623035392,
+  "address": "2927 Santa Rosa Ave",
+  "city": "Altadena, CA 91001",
+  "price": 2749000,
+  "beds": 3,
+  "baths": 3.5,
+  "sqft": 2801,
+  "lotSize": 12933,
+  "yearBuilt": 2022,
+  "images": [
+    "/images/1778623035392/photo-1.jpg",
+    "/images/1778623035392/photo-2.jpg",
+    "/images/1778623035392/photo-3.jpg",
+    "/images/1778623035392/photo-4.jpg",
+    "/images/1778623035392/photo-5.jpg",
+    "/images/1778623035392/photo-6.jpg",
+    "/images/1778623035392/photo-7.jpg",
+    "/images/1778623035392/photo-8.jpg",
+    "/images/1778623035392/photo-9.jpg",
+    "/images/1778623035392/photo-10.jpg",
+    "/images/1778623035392/photo-11.jpg",
+    "/images/1778623035392/photo-12.jpg",
+    "/images/1778623035392/photo-13.jpg",
+    "/images/1778623035392/photo-14.jpg",
+    "/images/1778623035392/photo-15.jpg",
+    "/images/1778623035392/photo-16.jpg",
+    "/images/1778623035392/photo-17.jpg",
+    "/images/1778623035392/photo-18.jpg",
+    "/images/1778623035392/photo-19.jpg",
+    "/images/1778623035392/photo-20.jpg",
+    "/images/1778623035392/photo-21.jpg",
+    "/images/1778623035392/photo-22.jpg",
+    "/images/1778623035392/photo-23.jpg",
+    "/images/1778623035392/photo-24.jpg",
+    "/images/1778623035392/photo-25.jpg",
+    "/images/1778623035392/photo-26.jpg",
+    "/images/1778623035392/photo-27.jpg",
+    "/images/1778623035392/photo-28.jpg",
+    "/images/1778623035392/photo-29.jpg"
+  ],
+  "neighborhood": "Altadena is a foothills community with larger lots and quiet residential streets featuring Craftsman bungalows, Spanish Colonial Revival homes, and mature trees. The area has a lower-density feel with direct mountain access and trails nearby, though it's less walkable than central Pasadena.",
+  "parkProximity": "0.5 miles to Loma Alta Park",
+  "floodRisk": "Low — Zone X, minimal flood hazard (FEMA NFHL)",
+  "fireRisk": "Low — not in a fire hazard severity zone (CAL FIRE FHSZ)",
+  "crimeRating": "Below Average — Grade D (CrimeGrade.org)",
+  "distances": [
+    {
+      "name": "Whole Foods Market",
+      "address": "465 S Arroyo Pkwy, Pasadena, CA 91105",
+      "miles": "4.5 mi",
+      "time": "16 min"
+    },
+    {
+      "name": "Trader Joe's",
+      "address": "345 S Lake Ave, Pasadena, CA 91101",
+      "miles": "3.9 mi",
+      "time": "13 min"
+    },
+    {
+      "name": "Costco",
+      "address": "3972 Costco Dr, Arcadia, CA 91006",
+      "miles": "9.5 mi",
+      "time": "18 min"
+    },
+    {
+      "name": "Target",
+      "address": "777 E Colorado Blvd, Pasadena, CA 91101",
+      "miles": "3.6 mi",
+      "time": "13 min"
+    },
+    {
+      "name": "Home Depot",
+      "address": "2881 E Walnut St, Pasadena, CA 91107",
+      "miles": "5.3 mi",
+      "time": "14 min"
+    },
+    {
+      "name": "Republik Coffee",
+      "address": "48 W Green St, Pasadena, CA 91105",
+      "miles": "5.4 mi",
+      "time": "14 min"
+    }
+  ],
+  "peepRating": {
+    "avgMiles": "4.5 mi",
+    "avgTime": "9 min",
+    "distances": [
+      {
+        "name": "Joan & David",
+        "lat": 34.1569436,
+        "lon": -118.1613219,
+        "driving": {
+          "miles": "4.0 mi",
+          "time": "11 min"
+        },
+        "walking": {
+          "miles": "4.0 mi",
+          "time": "1 hour 22 min"
+        }
+      },
+      {
+        "name": "Helen Becich",
+        "lat": 34.1578015,
+        "lon": -118.231412,
+        "driving": {
+          "miles": "11.3 mi",
+          "time": "18 min"
+        },
+        "walking": {
+          "miles": "9.8 mi",
+          "time": "3 hours 36 min"
+        }
+      },
+      {
+        "name": "Dan & Eileen Collins",
+        "lat": 34.1896915,
+        "lon": -118.1388309,
+        "driving": {
+          "miles": "0.6 mi",
+          "time": "2 min"
+        },
+        "walking": {
+          "miles": "0.6 mi",
+          "time": "13 min"
+        }
+      },
+      {
+        "name": "Tom & Jan Selinske",
+        "lat": 34.1742915,
+        "lon": -118.1303586,
+        "driving": {
+          "miles": "1.6 mi",
+          "time": "4 min"
+        },
+        "walking": {
+          "miles": "1.6 mi",
+          "time": "32 min"
+        }
+      },
+      {
+        "name": "Mike & Mary Veselich",
+        "lat": 34.2004099,
+        "lon": -118.1410491,
+        "driving": {
+          "miles": "0.8 mi",
+          "time": "4 min"
+        },
+        "walking": {
+          "miles": "0.8 mi",
+          "time": "17 min"
+        }
+      },
+      {
+        "name": "Chris & Hana Veselich",
+        "lat": 34.2168295,
+        "lon": -118.2386256,
+        "driving": {
+          "miles": "8.1 mi",
+          "time": "14 min"
+        },
+        "walking": {
+          "miles": "7.6 mi",
+          "time": "2 hours 50 min"
+        }
+      },
+      {
+        "name": "Dave & Jane Rumph",
+        "lat": 34.1656763,
+        "lon": -118.0748669,
+        "driving": {
+          "miles": "5.1 mi",
+          "time": "12 min"
+        },
+        "walking": {
+          "miles": "5.4 mi",
+          "time": "1 hour 55 min"
+        }
+      }
+    ]
+  },
+  "agent": {
+    "name": "Chris Reisbeck",
+    "phone": "+16267689405",
+    "email": "—"
+  },
+  "dateListed": "2026-05-12",
+  "priceHistory": [
+    {
+      "type": "listed",
+      "label": "Listed",
+      "date": "May 12, 2026",
+      "amount": 2749000
+    },
+    {
+      "type": "sold",
+      "label": "Sold (MLS)",
+      "date": "Apr 27, 2023",
+      "amount": 2580000
+    },
+    {
+      "type": "sold",
+      "label": "Sold (Public Records)",
+      "date": "Apr 27, 2023",
+      "amount": 2580000
+    },
+    {
+      "type": "listed",
+      "label": "Listed",
+      "date": "Dec 11, 2022",
+      "amount": 2695000
+    },
+    {
+      "type": "sold",
+      "label": "Sold (MLS)",
+      "date": "Nov 5, 2018",
+      "amount": 1025000
+    },
+    {
+      "type": "sold",
+      "label": "Sold (Public Records)",
+      "date": "Nov 5, 2018",
+      "amount": 1025000
+    },
+    {
+      "type": "listed",
+      "label": "Listed",
+      "date": "Sep 3, 2018",
+      "amount": 899000
+    },
+    {
+      "type": "sold",
+      "label": "Sold (Public Records)",
+      "date": "Mar 15, 2002",
+      "amount": 340500
+    }
+  ],
+  "lastSold": {
+    "date": "Apr 27, 2023",
+    "price": 2580000
+  },
+  "estimates": {
+    "redfin": 2715435
+  },
+  "listingUrl": "https://www.redfin.com/CA/Altadena/2927-Santa-Rosa-Ave-91001/home/7258720",
+  "listingSource": "redfin",
+  "redfinUrl": "https://www.redfin.com/CA/Altadena/2927-Santa-Rosa-Ave-91001/home/7258720",
+  "lat": 34.194872,
+  "lon": -118.1333031,
+  "dateAdded": "2026-05-12T21:58:23.932Z",
+  "status": "Active"
+}
