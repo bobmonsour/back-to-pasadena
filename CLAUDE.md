@@ -21,7 +21,7 @@ A password-protected house hunting web app for comparing properties in the Pasad
 
 ### Data Flow
 1. User adds property via "Add Property" modal (Redfin URL input) → POST `/api/addresses` → worker parses address/city from URL path → saves stub to KV
-2. Eleventy `before` event runs `sync-kv.js` (processes stubs from both local + remote KV → runs research per stub → writes JSON + images) then `pull-state.js` (pulls mutable state from remote KV → writes `src/_data/mutableState.json`)
+2. Eleventy `before` event runs `sync-kv.js` (processes stubs from both local + remote KV → runs research per stub → writes JSON + images), then `pull-state.js` (pulls mutable state from remote KV → writes `src/_data/mutableState.json`), then `refresh-status.js` (scrapes current Redfin listing status for non-rejected properties → writes `status` field back to each JSON)
 3. Eleventy reads `src/_data/houses.js` (loads all JSON files) → bakes data into `window.__HOUSES__` in `index.njk`
 4. At runtime, static data merges with mutable state fetched from `/api/state`
 
@@ -51,6 +51,7 @@ src/
     cards.js            — Card grid rendering, sorting, filtering
     detail.js           — Full-page detail view, gallery/lightbox, inline-editable fields
     comparison.js       — Side-by-side comparison view (2-3 properties)
+    status-banner.js    — Banner HTML helper (Pending/Contingent/Sold/etc. overlays)
     utils.js            — formatPrice, getDaysOnMarket, theme toggle
   css/styles.css        — All styles (CSS custom properties, light/dark themes)
   index.njk             — Single-page app template
@@ -59,6 +60,11 @@ scripts/
   research.js           — Redfin scraping + Claude neighborhood research + risk APIs + distances + peep rating
   peep-rating.js        — Backfill peep rating (driving + walking distances) for all properties from KML
   sync-kv.js            — Prebuild: process KV stubs → run research → write data files
+  pull-state.js         — Prebuild: pull mutable KV state to src/_data/mutableState.json
+  refresh-status.js     — Prebuild: scrape current Redfin status per non-rejected property (5-concurrency pool, 10s timeout, build-safe)
+  status-parser.js      — Pure parser: parseStatus(html) + normalizeStatus(raw). No I/O.
+  test-status-parser.js — Bare-bones test runner (15 tests) using node:assert/strict
+  test-fixtures/        — Saved Redfin HTML fixtures for parser tests (active, pending, contingent, sold, closed-sale, backup-offers)
   migrate-kv.js         — One-time migration from old KV format
 ```
 
@@ -92,7 +98,8 @@ scripts/
   "listingUrl": "https://www.redfin.com/...",
   "listingSource": "redfin",
   "redfinUrl": "https://www.redfin.com/...",
-  "dateAdded": "2026-03-15T16:00:00.000Z"
+  "dateAdded": "2026-03-15T16:00:00.000Z",
+  "status": "Active"
 }
 ```
 
@@ -113,6 +120,7 @@ scripts/
 - `npm run deploy` — Build + deploy to Cloudflare Workers
 - `npm run research` — Manual research: `node scripts/research.js "<address>" "<city>" <id> "<redfinUrl>"`
 - `npm run sync` — Process pending address stubs from KV
+- `npm run refresh-status` — Manually refresh Redfin listing status for non-rejected properties (also runs automatically each build)
 - `npm run peep-rating` — Backfill peep rating (driving + walking distances from KML) for all properties
 
 ## Key Patterns
@@ -125,6 +133,7 @@ scripts/
 - **Deferred card re-render**: Status/note changes on the detail page set `state.cardsDirty = true` instead of immediately re-rendering. Grid re-renders only when closing the detail view via `closeDetail()`.
 - **Status flags**: Properties use independent boolean flags (`visited`, `offer`, `rejected`, `deleted`) instead of a single status string. "New" is computed (`!visited && !offer && !rejected`). Multiple flags can coexist. Old `status` strings are migrated to booleans at read-time in `migrateStatus()`.
 - **Rejected properties**: Cards with `rejected: true` are separated into a distinct section below active cards with reduced opacity and a darker background. Rejected card images show a diagonal red strikethrough.
+- **Listing status banner**: Each property carries a `status` field — one of `Active | Pending | Contingent | Under Contract | Sold | Coming Soon | Off Market | null`. `scripts/refresh-status.js` updates it on every build by scraping the Redfin `mlsStatusDisplay.displayValue` (primary detector) and falling back to JSON-LD `offers.availability` for Sold. Skips rejected/deleted properties. On scrape failure, prior `status` is preserved (never downgraded to null). `src/js/status-banner.js` exports `statusBannerHtml(status)`, which renders a light-red banner for non-Active in-motion states and gray for Sold (no banner for Active or null). Banners overlay the lower-right of property images in the card grid, detail gallery, and comparison view; each container is `position: relative` so the absolute banner anchors correctly.
 - **Risk display**: `riskClass()` in `detail.js` maps risk strings to CSS classes (`risk-low`, `risk-medium`, `risk-high`) based on prefix matching
 - **Inline-editable fields**: Sidewalks, street trees, corner lot, road noise, stories, condition, backyard, studio, two sinks, wall ovens, pool, walk-in shower, character home, garage — toggle between display/edit mode, persist to KV. Gallery position preserved during inline edits.
 - **Auth**: Simple shared password, token stored in localStorage as `btp_token`
@@ -147,4 +156,7 @@ Multiple locations per store across Pasadena, South Pasadena, Glendale, Montrose
 - `ANTHROPIC_API_KEY` — For Claude research
 - `GOOGLE_MAPS_API_KEY` — For distance matrix and geocoding (optional — Census geocoder used as fallback)
 - `WORKER_URL` — Production worker URL (for remote stub sync)
-- `APP_PASSWORD` — Shared app password
+- `APP_PASSWORD` — Shared app password (also needed in `.dev.vars` for local Wrangler dev — see below)
+
+## Local Worker Secrets (`.dev.vars`)
+Wrangler reads worker secrets from `.dev.vars`, NOT `.env`. For `npm run dev` auth to work locally, create `.dev.vars` with `APP_PASSWORD=...`. File is gitignored.
