@@ -1,0 +1,196 @@
+{
+  "id": 1778786955874,
+  "address": "690 Prospect Blvd",
+  "city": "Pasadena, CA 91103",
+  "price": 3185000,
+  "beds": 4,
+  "baths": 3.5,
+  "sqft": 2960,
+  "lotSize": 11907,
+  "yearBuilt": 1923,
+  "images": [
+    "/images/1778786955874/photo-1.jpg",
+    "/images/1778786955874/photo-2.jpg",
+    "/images/1778786955874/photo-3.jpg",
+    "/images/1778786955874/photo-4.jpg",
+    "/images/1778786955874/photo-5.jpg",
+    "/images/1778786955874/photo-6.jpg",
+    "/images/1778786955874/photo-7.jpg",
+    "/images/1778786955874/photo-8.jpg",
+    "/images/1778786955874/photo-9.jpg"
+  ],
+  "neighborhood": "<cite index=\"7-12,10-1,10-3\">The Prospect Park Historic District is a prestigious historic neighborhood in Pasadena, featuring Mediterranean Revival and Craftsman-style homes designed by renowned architects including Wallace Neff, Greene & Greene, and Frank Lloyd Wright.</cite> <cite index=\"10-6,10-13,1-7\">The neighborhood has wide curved streets planted with camphor and palm trees, offering quiet residential streets with deep lots and high pride of ownership.</cite>",
+  "parkProximity": "<cite index=\"13-4,19-3,19-16\">Within walking distance to the Rose Bowl Stadium and Brookside Park, with the Rose Bowl just a short distance away.</cite>",
+  "floodRisk": "Low — Zone X, minimal flood hazard (FEMA NFHL)",
+  "fireRisk": "Low — not in a fire hazard severity zone (CAL FIRE FHSZ)",
+  "crimeRating": "<cite index=\"23-9,23-1,27-9,27-11\">D Grade — 19th percentile for safety (CrimeGrade.org), though the specific 91103 zip code scores B- with lower crime than the overall city</cite>",
+  "distances": [
+    {
+      "name": "Whole Foods Market",
+      "address": "465 S Arroyo Pkwy, Pasadena, CA 91105",
+      "miles": "2.1 mi",
+      "time": "8 min"
+    },
+    {
+      "name": "Trader Joe's",
+      "address": "613 Mission St, South Pasadena, CA 91030",
+      "miles": "3.1 mi",
+      "time": "10 min"
+    },
+    {
+      "name": "Costco",
+      "address": "3972 Costco Dr, Arcadia, CA 91006",
+      "miles": "8.9 mi",
+      "time": "12 min"
+    },
+    {
+      "name": "Target",
+      "address": "777 E Colorado Blvd, Pasadena, CA 91101",
+      "miles": "2.9 mi",
+      "time": "7 min"
+    },
+    {
+      "name": "Home Depot",
+      "address": "2881 E Walnut St, Pasadena, CA 91107",
+      "miles": "5.1 mi",
+      "time": "9 min"
+    },
+    {
+      "name": "Republik Coffee",
+      "address": "48 W Green St, Pasadena, CA 91105",
+      "miles": "1.4 mi",
+      "time": "5 min"
+    }
+  ],
+  "peepRating": {
+    "avgMiles": "4.4 mi",
+    "avgTime": "9 min",
+    "distances": [
+      {
+        "name": "Joan & David",
+        "lat": 34.1569436,
+        "lon": -118.1613219,
+        "driving": {
+          "miles": "0.0 mi",
+          "time": "1 min"
+        },
+        "walking": {
+          "miles": "0.0 mi",
+          "time": "1 min"
+        }
+      },
+      {
+        "name": "Helen Becich",
+        "lat": 34.1578015,
+        "lon": -118.231412,
+        "driving": {
+          "miles": "6.0 mi",
+          "time": "10 min"
+        },
+        "walking": {
+          "miles": "6.2 mi",
+          "time": "2 hours 21 min"
+        }
+      },
+      {
+        "name": "Dan & Eileen Collins",
+        "lat": 34.1896915,
+        "lon": -118.1388309,
+        "driving": {
+          "miles": "3.7 mi",
+          "time": "10 min"
+        },
+        "walking": {
+          "miles": "3.4 mi",
+          "time": "1 hour 22 min"
+        }
+      },
+      {
+        "name": "Tom & Jan Selinske",
+        "lat": 34.1742915,
+        "lon": -118.1303586,
+        "driving": {
+          "miles": "3.2 mi",
+          "time": "9 min"
+        },
+        "walking": {
+          "miles": "3.0 mi",
+          "time": "1 hour 10 min"
+        }
+      },
+      {
+        "name": "Mike & Mary Veselich",
+        "lat": 34.2004099,
+        "lon": -118.1410491,
+        "driving": {
+          "miles": "4.1 mi",
+          "time": "11 min"
+        },
+        "walking": {
+          "miles": "4.1 mi",
+          "time": "1 hour 41 min"
+        }
+      },
+      {
+        "name": "Chris & Hana Veselich",
+        "lat": 34.2168295,
+        "lon": -118.2386256,
+        "driving": {
+          "miles": "7.6 mi",
+          "time": "11 min"
+        },
+        "walking": {
+          "miles": "7.4 mi",
+          "time": "2 hours 53 min"
+        }
+      },
+      {
+        "name": "Dave & Jane Rumph",
+        "lat": 34.1656763,
+        "lon": -118.0748669,
+        "driving": {
+          "miles": "6.5 mi",
+          "time": "13 min"
+        },
+        "walking": {
+          "miles": "5.5 mi",
+          "time": "2 hours 5 min"
+        }
+      }
+    ]
+  },
+  "agent": {
+    "name": "Peter Martocchio",
+    "phone": "+16267689405",
+    "email": "—"
+  },
+  "dateListed": "2026-05-13",
+  "priceHistory": [
+    {
+      "type": "listed",
+      "label": "Coming Soon",
+      "date": "May 13, 2026",
+      "amount": 3185000
+    },
+    {
+      "type": "sold",
+      "label": "Sold (Public Records)",
+      "date": "Jul 30, 1985",
+      "amount": 280000
+    }
+  ],
+  "lastSold": {
+    "date": "Jul 30, 1985",
+    "price": 280000
+  },
+  "estimates": {
+    "redfin": 1
+  },
+  "listingUrl": "https://www.redfin.com/CA/Pasadena/690-Prospect-Blvd-91103/home/7184935",
+  "listingSource": "redfin",
+  "redfinUrl": "https://www.redfin.com/CA/Pasadena/690-Prospect-Blvd-91103/home/7184935",
+  "lat": 34.1563434,
+  "lon": -118.161053,
+  "dateAdded": "2026-05-14T19:33:48.338Z",
+  "status": "Coming Soon"
+}
