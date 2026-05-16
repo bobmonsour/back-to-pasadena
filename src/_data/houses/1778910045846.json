@@ -1,0 +1,195 @@
+{
+  "id": 1778910045846,
+  "address": "1110 Armada Dr",
+  "city": "Pasadena, CA 91103",
+  "price": 1998000,
+  "beds": 3,
+  "baths": 3,
+  "sqft": 2568,
+  "lotSize": 8035,
+  "yearBuilt": 1923,
+  "images": [
+    "/images/1778910045846/photo-1.jpg",
+    "/images/1778910045846/photo-2.jpg"
+  ],
+  "neighborhood": "Located in the Brookside Park neighborhood, this area features historic homes from the 1920s-1940s with tree-lined residential streets and a more car-dependent lifestyle due to limited walkability. The northeast area is considered the safest part of Pasadena with lower crime rates.",
+  "parkProximity": "0.3 miles to Brookside Park (61-acre park with sports facilities, playgrounds, and trails)",
+  "floodRisk": "Unknown",
+  "fireRisk": "Low — not in a fire hazard severity zone (CAL FIRE FHSZ)",
+  "crimeRating": "Moderate — Grade D- (CrimeGrade.org)",
+  "distances": [
+    {
+      "name": "Whole Foods Market",
+      "address": "465 S Arroyo Pkwy, Pasadena, CA 91105",
+      "miles": "2.6 mi",
+      "time": "7 min"
+    },
+    {
+      "name": "Trader Joe's",
+      "address": "345 S Lake Ave, Pasadena, CA 91101",
+      "miles": "3.3 mi",
+      "time": "8 min"
+    },
+    {
+      "name": "Costco",
+      "address": "3972 Costco Dr, Arcadia, CA 91006",
+      "miles": "9.0 mi",
+      "time": "12 min"
+    },
+    {
+      "name": "Target",
+      "address": "777 E Colorado Blvd, Pasadena, CA 91101",
+      "miles": "3.0 mi",
+      "time": "7 min"
+    },
+    {
+      "name": "Home Depot",
+      "address": "2881 E Walnut St, Pasadena, CA 91107",
+      "miles": "5.1 mi",
+      "time": "9 min"
+    },
+    {
+      "name": "Republik Coffee",
+      "address": "48 W Green St, Pasadena, CA 91105",
+      "miles": "1.9 mi",
+      "time": "6 min"
+    }
+  ],
+  "peepRating": {
+    "avgMiles": "4.3 mi",
+    "avgTime": "9 min",
+    "distances": [
+      {
+        "name": "Joan & David",
+        "lat": 34.1569436,
+        "lon": -118.1613219,
+        "driving": {
+          "miles": "0.6 mi",
+          "time": "2 min"
+        },
+        "walking": {
+          "miles": "0.6 mi",
+          "time": "12 min"
+        }
+      },
+      {
+        "name": "Helen Becich",
+        "lat": 34.1578015,
+        "lon": -118.231412,
+        "driving": {
+          "miles": "6.7 mi",
+          "time": "11 min"
+        },
+        "walking": {
+          "miles": "6.9 mi",
+          "time": "2 hours 34 min"
+        }
+      },
+      {
+        "name": "Dan & Eileen Collins",
+        "lat": 34.1896915,
+        "lon": -118.1388309,
+        "driving": {
+          "miles": "3.1 mi",
+          "time": "9 min"
+        },
+        "walking": {
+          "miles": "3.0 mi",
+          "time": "1 hour 13 min"
+        }
+      },
+      {
+        "name": "Tom & Jan Selinske",
+        "lat": 34.1742915,
+        "lon": -118.1303586,
+        "driving": {
+          "miles": "2.7 mi",
+          "time": "8 min"
+        },
+        "walking": {
+          "miles": "2.6 mi",
+          "time": "1 hour 1 min"
+        }
+      },
+      {
+        "name": "Mike & Mary Veselich",
+        "lat": 34.2004099,
+        "lon": -118.1410491,
+        "driving": {
+          "miles": "3.6 mi",
+          "time": "10 min"
+        },
+        "walking": {
+          "miles": "3.7 mi",
+          "time": "1 hour 31 min"
+        }
+      },
+      {
+        "name": "Chris & Hana Veselich",
+        "lat": 34.2168295,
+        "lon": -118.2386256,
+        "driving": {
+          "miles": "7.0 mi",
+          "time": "10 min"
+        },
+        "walking": {
+          "miles": "6.8 mi",
+          "time": "2 hours 38 min"
+        }
+      },
+      {
+        "name": "Dave & Jane Rumph",
+        "lat": 34.1656763,
+        "lon": -118.0748669,
+        "driving": {
+          "miles": "6.6 mi",
+          "time": "12 min"
+        },
+        "walking": {
+          "miles": "5.6 mi",
+          "time": "2 hours 5 min"
+        }
+      }
+    ]
+  },
+  "agent": {
+    "name": "Peter Martocchio",
+    "phone": "+16267689405",
+    "email": "—"
+  },
+  "dateListed": "2026-05-13",
+  "priceHistory": [
+    {
+      "type": "listed",
+      "label": "Coming Soon",
+      "date": "May 13, 2026",
+      "amount": 1998000
+    },
+    {
+      "type": "sold",
+      "label": "Sold (Public Records)",
+      "date": "Apr 13, 1999",
+      "amount": 400000
+    },
+    {
+      "type": "listed",
+      "label": "Listed",
+      "date": "Mar 8, 1999",
+      "amount": 399900
+    }
+  ],
+  "lastSold": {
+    "date": "Apr 13, 1999",
+    "price": 400000
+  },
+  "estimates": {
+    "redfin": 2015916
+  },
+  "listingUrl": "https://www.redfin.com/CA/Pasadena/1110-Armada-Dr-91103/home/7182684",
+  "listingSource": "redfin",
+  "redfinUrl": "https://www.redfin.com/CA/Pasadena/1110-Armada-Dr-91103/home/7182684",
+  "lat": 34.1643934,
+  "lon": -118.1624291,
+  "dateAdded": "2026-05-16T14:42:58.034Z",
+  "status": "Coming Soon"
+}
