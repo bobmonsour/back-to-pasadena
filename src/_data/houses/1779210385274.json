@@ -1,0 +1,297 @@
+{
+  "id": 1779210385274,
+  "address": "1785 N Los Robles Ave",
+  "city": "Pasadena, CA 91104",
+  "price": 1950000,
+  "beds": 4,
+  "baths": 2.5,
+  "sqft": 2000,
+  "lotSize": 10091,
+  "yearBuilt": 1911,
+  "images": [
+    "/images/1779210385274/photo-1.jpg",
+    "/images/1779210385274/photo-2.jpg",
+    "/images/1779210385274/photo-3.jpg",
+    "/images/1779210385274/photo-4.jpg",
+    "/images/1779210385274/photo-5.jpg",
+    "/images/1779210385274/photo-6.jpg",
+    "/images/1779210385274/photo-7.jpg",
+    "/images/1779210385274/photo-8.jpg",
+    "/images/1779210385274/photo-9.jpg",
+    "/images/1779210385274/photo-10.jpg",
+    "/images/1779210385274/photo-11.jpg",
+    "/images/1779210385274/photo-12.jpg",
+    "/images/1779210385274/photo-13.jpg",
+    "/images/1779210385274/photo-14.jpg",
+    "/images/1779210385274/photo-15.jpg",
+    "/images/1779210385274/photo-16.jpg",
+    "/images/1779210385274/photo-17.jpg",
+    "/images/1779210385274/photo-18.jpg",
+    "/images/1779210385274/photo-19.jpg",
+    "/images/1779210385274/photo-20.jpg"
+  ],
+  "neighborhood": "<cite index='2-1,2-7'>The N Los Robles Ave area is one of the most walkable neighborhoods in America and is densely populated, creating an urban neighborhood feel.</cite> <cite index='3-6,3-7'>It's located in the Normandy Heights area known for a high concentration of character homes, quiet residential streets with deep lots and unusually high pride of ownership.</cite>",
+  "parkProximity": "<cite index='15-1'>Garfield Park is among the closest parks to the area</cite> - approximately 0.5 miles south on Los Robles Avenue",
+  "floodRisk": "Low — Zone X, minimal flood hazard (FEMA NFHL)",
+  "fireRisk": "Low — not in a fire hazard severity zone (CAL FIRE FHSZ)",
+  "crimeRating": "<cite index='31-16,31-17'>C- grade - safer than 34% of zip codes but less safe than 66% (CrimeGrade.org)</cite>",
+  "distances": [
+    {
+      "name": "Whole Foods Market",
+      "address": "465 S Arroyo Pkwy, Pasadena, CA 91105",
+      "miles": "3.1 mi",
+      "time": "10 min"
+    },
+    {
+      "name": "Trader Joe's",
+      "address": "345 S Lake Ave, Pasadena, CA 91101",
+      "miles": "3.1 mi",
+      "time": "10 min"
+    },
+    {
+      "name": "Costco",
+      "address": "3972 Costco Dr, Arcadia, CA 91006",
+      "miles": "8.7 mi",
+      "time": "15 min"
+    },
+    {
+      "name": "Target",
+      "address": "777 E Colorado Blvd, Pasadena, CA 91101",
+      "miles": "2.7 mi",
+      "time": "9 min"
+    },
+    {
+      "name": "Home Depot",
+      "address": "2881 E Walnut St, Pasadena, CA 91107",
+      "miles": "4.9 mi",
+      "time": "12 min"
+    },
+    {
+      "name": "Republik Coffee",
+      "address": "48 W Green St, Pasadena, CA 91105",
+      "miles": "3.2 mi",
+      "time": "10 min"
+    }
+  ],
+  "peepRating": {
+    "avgMiles": "3.8 mi",
+    "avgTime": "8 min",
+    "distances": [
+      {
+        "name": "Joan & David",
+        "lat": 34.1569436,
+        "lon": -118.1613219,
+        "driving": {
+          "miles": "2.5 mi",
+          "time": "7 min"
+        },
+        "walking": {
+          "miles": "2.5 mi",
+          "time": "51 min"
+        }
+      },
+      {
+        "name": "Helen Becich",
+        "lat": 34.1578015,
+        "lon": -118.231412,
+        "driving": {
+          "miles": "8.0 mi",
+          "time": "15 min"
+        },
+        "walking": {
+          "miles": "8.3 mi",
+          "time": "3 hours 5 min"
+        }
+      },
+      {
+        "name": "Dan & Eileen Collins",
+        "lat": 34.1896915,
+        "lon": -118.1388309,
+        "driving": {
+          "miles": "1.0 mi",
+          "time": "3 min"
+        },
+        "walking": {
+          "miles": "1.0 mi",
+          "time": "26 min"
+        }
+      },
+      {
+        "name": "Tom & Jan Selinske",
+        "lat": 34.1742915,
+        "lon": -118.1303586,
+        "driving": {
+          "miles": "0.8 mi",
+          "time": "3 min"
+        },
+        "walking": {
+          "miles": "1.0 mi",
+          "time": "22 min"
+        }
+      },
+      {
+        "name": "Mike & Mary Veselich",
+        "lat": 34.2004099,
+        "lon": -118.1410491,
+        "driving": {
+          "miles": "2.1 mi",
+          "time": "6 min"
+        },
+        "walking": {
+          "miles": "2.1 mi",
+          "time": "52 min"
+        }
+      },
+      {
+        "name": "Chris & Hana Veselich",
+        "lat": 34.2168295,
+        "lon": -118.2386256,
+        "driving": {
+          "miles": "7.4 mi",
+          "time": "12 min"
+        },
+        "walking": {
+          "miles": "7.4 mi",
+          "time": "2 hours 51 min"
+        }
+      },
+      {
+        "name": "Dave & Jane Rumph",
+        "lat": 34.1656763,
+        "lon": -118.0748669,
+        "driving": {
+          "miles": "4.8 mi",
+          "time": "13 min"
+        },
+        "walking": {
+          "miles": "4.9 mi",
+          "time": "1 hour 49 min"
+        }
+      }
+    ]
+  },
+  "agent": {
+    "name": "George Penner",
+    "phone": "+16267689405",
+    "email": "—"
+  },
+  "dateListed": "2026-05-14",
+  "priceHistory": [
+    {
+      "type": "listed",
+      "label": "Listed",
+      "date": "May 14, 2026",
+      "amount": 1950000
+    },
+    {
+      "type": "sold",
+      "label": "Sold (Public Records)",
+      "date": "May 30, 2025",
+      "amount": 995000
+    },
+    {
+      "type": "sold",
+      "label": "Sold (MLS)",
+      "date": "Jun 29, 2022",
+      "amount": 1679000
+    },
+    {
+      "type": "sold",
+      "label": "Sold (Public Records)",
+      "date": "Jun 29, 2022",
+      "amount": 1679000
+    },
+    {
+      "type": "listed",
+      "label": "Listed",
+      "date": "May 16, 2022",
+      "amount": 1249000
+    },
+    {
+      "type": "listed",
+      "label": "Listed",
+      "date": "May 16, 2022",
+      "amount": 1249000
+    },
+    {
+      "type": "sold",
+      "label": "Sold (MLS)",
+      "date": "Mar 29, 2012",
+      "amount": 489000
+    },
+    {
+      "type": "sold",
+      "label": "Sold (Public Records)",
+      "date": "Mar 29, 2012",
+      "amount": 489000
+    },
+    {
+      "type": "reduced",
+      "label": "Price Changed",
+      "date": "Feb 6, 2012",
+      "amount": 519000
+    },
+    {
+      "type": "reduced",
+      "label": "Price Changed",
+      "date": "Dec 30, 2011",
+      "amount": 549000
+    },
+    {
+      "type": "reduced",
+      "label": "Price Changed",
+      "date": "Nov 29, 2011",
+      "amount": 599000
+    },
+    {
+      "type": "listed",
+      "label": "Listed",
+      "date": "Nov 19, 2011",
+      "amount": 649000
+    },
+    {
+      "type": "sold",
+      "label": "Sold (MLS)",
+      "date": "Sep 28, 2007",
+      "amount": 864000
+    },
+    {
+      "type": "sold",
+      "label": "Sold (Public Records)",
+      "date": "Sep 28, 2007",
+      "amount": 864000
+    },
+    {
+      "type": "listed",
+      "label": "Listed",
+      "date": "May 29, 2007",
+      "amount": 899000
+    },
+    {
+      "type": "sold",
+      "label": "Sold (Public Records)",
+      "date": "Aug 24, 1994",
+      "amount": 176000
+    },
+    {
+      "type": "sold",
+      "label": "Sold (Public Records)",
+      "date": "Feb 1, 1985",
+      "amount": 54500
+    }
+  ],
+  "lastSold": {
+    "date": "May 30, 2025",
+    "price": 995000
+  },
+  "estimates": {
+    "redfin": 2076039
+  },
+  "listingUrl": "https://www.redfin.com/CA/Pasadena/1785-N-Los-Robles-Ave-91104/home/7257035",
+  "listingSource": "redfin",
+  "redfinUrl": "https://www.redfin.com/CA/Pasadena/1785-N-Los-Robles-Ave-91104/home/7257035",
+  "lat": 34.1765529,
+  "lon": -118.1419885,
+  "dateAdded": "2026-05-19T17:07:46.793Z",
+  "status": "Active"
+}
